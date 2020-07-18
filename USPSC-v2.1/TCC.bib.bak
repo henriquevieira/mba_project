@@ -1,0 +1,97 @@
+% Encoding: UTF-8
+
+@article{Abbas2014,
+abstract = {The rapid growth of patent documents has called for the development of sophisticated patent analysis tools. Currently, there are various tools that are being utilized by organizations for analyzing patents. These tools are capable of performing wide range of tasks, such as analyzing and forecasting future technological trends, conducting strategic technology planning, detecting patent infringement, determining patents quality and the most promising patents, and identifying technological hotspots and patent vacuums. This literature review presents the state-of-the-art in patent analysis and also presents taxonomy of patent analysis techniques. Moreover, the key features and weaknesses of the discussed tools and techniques are presented and several directions for future research are highlighted. The literature review will be helpful for the researchers in finding the latest research efforts pertaining to the patent analysis in a unified form. {\textcopyright} 2013 Elsevier Ltd.},
+author = {Abbas, Assad and Zhang, Limin and Khan, Samee U.},
+doi = {10.1016/j.wpi.2013.12.006},
+file = {:home/henrique/Documents/mba{\_}project/material/abbas2014.pdf:pdf},
+issn = {01722190},
+journal = {World Patent Information},
+keywords = {Natural language processing,Patent analysis,Text mining,Visualization techniques},
+mendeley-groups = {mba},
+pages = {3--13},
+publisher = {Elsevier Ltd},
+title = {{A literature review on the state-of-the-art in patent analysis}},
+url = {http://dx.doi.org/10.1016/j.wpi.2013.12.006},
+volume = {37},
+year = {2014}
+}
+
+@article{Anne2017,
+abstract = {Text classification is used in information extraction and retrieval from a given text, and text classification has been considered as an important step to manage a vast number of records given in digital form that is far-reaching and expanding. This article addresses patent document classification problem into fifteen different categories or classes, where some classes overlap with each other for practical reasons. For the development of the classification model using machine learning techniques, useful features have been extracted from the given documents. The features are used to classify patent document as well as to generate useful tag-words. The overall objective of this work is to systematize NASA's patent management, by developing a set of automated tools that can assist NASA to manage and market its portfolio of intellectual properties (IP), and to enable easier discovery of relevant IP by users. We have identified an array of methods that can be applied such as k-Nearest Neighbors (kNN), two variations of the Support Vector Machine (SVM) algorithms, and two tree based classification algorithms: Random Forest and J48. The major research steps in this paper consist of filtering techniques for variable selection, information gain and feature correlation analysis, and training and testing potential models using effective classifiers. Further, the obstacles associated with the imbalanced data were mitigated by adding pseudo-synthetic data wherever appropriate, which resulted in a superior SVM classifier based model.},
+author = {Anne, Chaitanya and Mishra, Avdesh and Hoque, Md Tamjidul and Tu, Shengru},
+doi = {10.5430/air.v7n1p1},
+file = {:home/henrique/Documents/mba{\_}project/material/10/Multiclass{\_}patent{\_}document{\_}classificatio.pdf:pdf},
+issn = {1927-6974},
+journal = {Artificial Intelligence Research},
+keywords = {imbalanced data,machine learning algorithms,multi-class classification,patent classification,svm},
+mendeley-groups = {mba/selecionados10},
+number = {1},
+pages = {1},
+title = {{Multiclass patent document classification}},
+volume = {7},
+year = {2017}
+}
+
+@article{Breitzman2002,
+abstract = {The use of patent analysis in many different contexts is discussed. Applications discussed range from intellectual property management, to merger and acquisition targeting and due diligence, to stock market valuation. The authors draw on 38 years of combined patent.related experience to discuss a number of techniques and metrics that have been found to work well in specific situations.},
+author = {Breitzman, Anthony F. and Mogee, Mary Ellen},
+doi = {10.1177/016555150202800302},
+file = {:home/henrique/Documents/mba{\_}project/material/breitzman2002.pdf:pdf},
+isbn = {0165551502028},
+issn = {01655515},
+journal = {Journal of Information Science},
+mendeley-groups = {mba},
+number = {3},
+pages = {187--205},
+title = {{The many applications of patent analysis}},
+volume = {28},
+year = {2002}
+}
+@article{Li2018,
+author = {Li, Guanlin},
+file = {:home/henrique/Documents/mba{\_}project/material/10/1.pdf:pdf},
+journal = {International Journal of Knowledge and Language Processing},
+keywords = {1,at the same time,enterprise analyzes patent information,find great value of,high commercial value,in which we can,introduction,of technology information,patent analysis,patent intelligence,patents are important sources,patents are of,scientific and technological intelligence,text mining,which contains more than},
+mendeley-groups = {mba/selecionados10},
+number = {3},
+pages = {1--15},
+title = {{A Literature Review on Patent Texts Analysis Techniques}},
+volume = {9},
+year = {2018}
+}
+@article{Wang2016,
+abstract = {Process patents contain substantial knowledge of the principles behind manufacturing process problems-solving; however, this knowledge is implicit in lengthy texts and cannot be directly reused in innovation design. To effectively support systematic manufacturing process innovation, this paper presents an approach to extracting principle innovation knowledge from process patents. The proposed approach consists of (1) classifying process patents by taking process method, manufacturing object and manufacturing feature as the references; (2) extracting generalized process contradiction parameters and the principles behind solving such process contradictions based on patent mining and technology abstraction of TRIZ (the theory of inventive problem solving); and (3) constructing a domain process contradiction matrix and mapping the relationship between the matrix and the corresponding process patents. Finally, a case study is presented to illustrate the applicability of the proposed approach.},
+author = {Wang, Gangfeng and Tian, Xitian and Geng, Junhao and Evans, Richard and Che, Shengchuang},
+doi = {10.1016/j.procir.2016.10.053},
+file = {:home/henrique/Documents/mba{\_}project/material/10/1-s2.0-S2212827116310459-main.pdf:pdf},
+issn = {22128271},
+journal = {Procedia CIRP},
+keywords = {Knowledge Acquisition,Knowledge Management,Patent Mining,Principle Knowledge,Process Innovation},
+mendeley-groups = {mba/selecionados10},
+pages = {193--198},
+publisher = {The Author(s)},
+title = {{Extraction of Principle Knowledge from Process Patents for Manufacturing Process Innovation}},
+url = {http://dx.doi.org/10.1016/j.procir.2016.10.053},
+volume = {56},
+year = {2016}
+}
+@article{Zhu2020,
+abstract = {With the rapid growth of patent applications, it has become an urgent problem to automatically classify the accepted patent application documents accurately and quickly. Most previous patent automatic classification studies are based on feature engineering and traditional machine learning methods like SVM, and some even rely on the knowledge of domain experts, hence they suffer from low accuracy problem and have poor generalization ability. In this paper, we propose a patent automatic classification method via the symmetric hierarchical convolution neural network (CNN) named PAC-HCNN. We use the title and abstract of the patent as the input data, and then apply the word embedding technique to segment and vectorize the input data. Then we design a symmetric hierarchical CNN framework to classify the patents based on the word embeddings, which is much more efficient than traditional RNN models dealing with texts, meanwhile keeping the history and future information of the input sequence. We also add gated linear units (GLUs) and residual connection to help realize the deep CNN. Additionally, we equip our model with a self attention mechanism to address the long-term dependency problem. Experiments are performed on large-scale datasets for Chinese short text patent classification. Experimental results prove our proposed model's effectiveness, and it performs better than other state-of-the-art models significantly and consistently on both fine-grained and coarse-grained classification.},
+author = {Zhu, Huiming and He, Chunhui and Fang, Yang and Ge, Bin and Xing, Meng and Xiao, Weidong},
+doi = {10.3390/sym12020186},
+file = {:home/henrique/Documents/mba{\_}project/material/10/symmetry-12-00186-v2.pdf:pdf},
+issn = {20738994},
+journal = {Symmetry},
+keywords = {Patent classification,Short-text classification,Symmetric hierarchical CNN},
+mendeley-groups = {mba/selecionados10},
+number = {2},
+pages = {1--12},
+title = {{Patent automatic classification based on symmetric hierarchical convolution neural network}},
+volume = {12},
+year = {2020}
+}
+
+
+
+

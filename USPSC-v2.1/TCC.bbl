@@ -1,0 +1,55 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.6 }
+
+\bibitem[Abbas, Zhang e Khan 2014]{Abbas2014}
+\abntrefinfo{Abbas, Zhang e Khan}{ABBAS; ZHANG; KHAN}{2014}
+{ABBAS, A.; ZHANG, L.; KHAN, S.~U. {A literature review on the state-of-the-art
+  in patent analysis}.
+\textbf{World Patent Information}, Elsevier Ltd, v.~37, p. 3--13, 2014.
+ISSN 01722190.
+Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1016/j.wpi.2013.12.006}.}
+
+\bibitem[Anne et al. 2017]{Anne2017}
+\abntrefinfo{Anne et al.}{ANNE et al.}{2017}
+{ANNE, C. et al. {Multiclass patent document classification}.
+\textbf{Artificial Intelligence Research}, v.~7, n.~1, p.~1, 2017.
+ISSN 1927-6974.}
+
+\bibitem[Breitzman e Mogee 2002]{Breitzman2002}
+\abntrefinfo{Breitzman e Mogee}{BREITZMAN; MOGEE}{2002}
+{BREITZMAN, A.~F.; MOGEE, M.~E. {The many applications of patent analysis}.
+\textbf{Journal of Information Science}, v.~28, n.~3, p. 187--205, 2002.
+ISSN 01655515.}
+
+\bibitem[Li 2018]{Li2018}
+\abntrefinfo{Li}{LI}{2018}
+{LI, G. {A Literature Review on Patent Texts Analysis Techniques}.
+\textbf{International Journal of Knowledge and Language Processing}, v.~9,
+  n.~3, p. 1--15, 2018.}
+
+\bibitem[Shahid et al. 2020]{shahid2020}
+\abntrefinfo{Shahid et al.}{SHAHID et al.}{2020}
+{SHAHID, M. et al. Automatic patents classification using supervised machine
+  learning. In:  SPRINGER. \textbf{International Conference on Soft Computing
+  and Data Mining}. [S.l.], 2020. p. 297--307.}
+
+\bibitem[Wang et al. 2016]{Wang2016}
+\abntrefinfo{Wang et al.}{WANG et al.}{2016}
+{WANG, G. et al. {Extraction of Principle Knowledge from Process Patents for
+  Manufacturing Process Innovation}.
+\textbf{Procedia CIRP}, The Author(s), v.~56, p. 193--198, 2016.
+ISSN 22128271.
+Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1016/j.procir.2016.10.053}.}
+
+\bibitem[Zhu et al. 2020]{Zhu2020}
+\abntrefinfo{Zhu et al.}{ZHU et al.}{2020}
+{ZHU, H. et al. {Patent automatic classification based on symmetric
+  hierarchical convolution neural network}.
+\textbf{Symmetry}, v.~12, n.~2, p. 1--12, 2020.
+ISSN 20738994.}
+
+\end{thebibliography}
