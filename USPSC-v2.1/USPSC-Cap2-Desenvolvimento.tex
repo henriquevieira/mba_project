@@ -47,12 +47,12 @@ A avaliação do dicionario obtido, consiste em observar se o valor k utilizado 
 
 \subsection{Extração de dados}
 
-Extraímos uma amostra no total de 200 documentos de patentes através do uso da técnica de webscraping. Destes documentos, os dados de \textbf{Titulo} e \textbf{Resumo} foram pré processados, removendo as quebras de linhas, espaços no inicio e fim da frase, uso de somente um espaço como separador e transformação em minusculo. Estes dados foram concatenados e usados para a montagem do corpora de documentos de patentes, que poderá ser utilizado para outros projetos.
+Extraímos uma amostra no total de 200 documentos de patentes através do uso da técnica de webscraping. Destes documentos, os dados de \textbf{Titulo} e \textbf{Resumo} foram pré processados, removendo as quebras de linhas, espaços no inicio e fim da frase, uso de somente um espaço como separador e transformação em minusculo. Estes dados foram concatenados e usados para a montagem do corpora de documentos de patentes, que poderá ser utilizado para outros projetos. Podemos visualizar na figura \ref{wordcloud_pre_image} como é distribuida a relação de palavras.
 
 \begin{figure}[ht!]
 	\centering
 	\includegraphics[scale=0.3]{imagens/wordcloud_preprocess.png}
-	\caption{Construção nuvem de palavras dos termos mais representativas para este corpora.
+	\caption{Construção nuvem de palavras dos termos mais representativos para este corpora.
 			 \label{wordcloud_pre_image}}
 \end{figure}
 
@@ -62,7 +62,7 @@ A construção do dicionario engloba o levantamento de tópicos, expansão dos t
 
 \subsubsection{Levantamento de tópicos}
 
-O corpora de documentos de patentes foi carregado, removido as \textbf{stopwords}, removido também caracteres numéricos e especiais, depois separados em palavras (tokens) e convertidos em sua raiz (lemmas). Resultando em 200 conjuntos de palavras normalizadas representando cada documento de patente e que esta pronto para ser utilizado em modelos de Processamento de Linguagem Natural e em modelos de Aprendizado de Maquina.
+O corpora de documentos de patentes foi carregado, removido as stopwords, removido também caracteres numéricos e especiais, depois separados em palavras (tokens) e desflexionados para a sua raiz (lemmas). Resultando em 200 conjuntos de palavras normalizadas representando cada documento de patente e que esta pronto para ser utilizado em modelos de Processamento de Linguagem Natural e em modelos de Aprendizado de Maquina.
 Aplicamos o modelo LDA, com os seguintes parâmetros - random\_state igual a 100, update\_every igual a 1, chuncksize igual a 100, passes igual a 10 e alpha automático. Para definir a quantidade de tópicos k, usamos um laço de 40 interações e anotamos o valor da métrica Coherence.
 
 \begin{figure}[ht!]
@@ -72,11 +72,11 @@ Aplicamos o modelo LDA, com os seguintes parâmetros - random\_state igual a 100
 			 \label{dist_coherence_image}}
 \end{figure}
 
-O gráfico aponta que um k igual a 20 resulta no segundo mais alto valor de Coherence. Utilizaremos este valor para k, pois é um número menor de conjuntos de palavras que precisará serem interpretadas para se definir qual o título do tópico se referem.
+O gráfico aponta que um k igual a 20 resulta no segundo mais alto valor de Coherence, como visto na figura \ref{dist_coherence_image}. Utilizaremos este valor para k, pois é um número menor de conjuntos de palavras que precisará serem interpretadas para se definir qual o título do tópico se referem.
 
 \subsubsection{Validação dos tópicos}
 
-Examinamos o tópicos obtidos através da ferramenta pyLDAvis. Os termos que compõe os tópicos gerados  representam bem o corpora usado. Temos pouca sobreposição, com exceção do tópico 18, e os termos de cada tópico possuem uma alta relevância com o tema agronomia.  
+Examinamos o tópicos obtidos através da ferramenta pyLDAvis, figura \ref{pyLDAvis_image}. Os termos que compõe os tópicos gerados  representam bem o corpora usado. Temos pouca sobreposição, com exceção do tópico 18, e os termos de cada tópico possuem uma alta relevância com o tema agronomia.  
 
 \begin{figure}[ht!]
 	\centering
@@ -87,7 +87,7 @@ Examinamos o tópicos obtidos através da ferramenta pyLDAvis. Os termos que com
 
 \subsubsection{Expansão do dicionário}
 
-Os tópicos geraram no total de 119 palavras únicas que foram submetidas ao wordnet e adicionado os sinônimos, hiperônimos e hipônimos destes termos, totalizando 673 termos que representam cada tópico.
+Os tópicos geraram no total de 119 palavras únicas que foram submetidas ao wordnet e adicionado os sinônimos, hiperônimos e hipônimos destes termos, totalizando 673 termos que representam cada tópico. A estrutura do dicionario criado é composta por duas colunas, a primeira é o tópico e a segunda são os termos que estão atrelada ao tópico.
 
 \section{Discussão parcial}
 

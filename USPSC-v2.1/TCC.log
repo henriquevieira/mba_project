@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.7.15)  12 OCT 2020 18:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.7.15)  12 OCT 2020 22:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1372,10 +1372,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ])
-Underfull \vbox (badness 1259) has occurred while \output is active []
+Overfull \hbox (20.2831pt too wide) in paragraph at lines 33--443
+\T1/lmr/m/n/12 (-20) cul-tura atra-vés da fer-ra-menta Free Pa-tents On-line - 
+FPO (https://www.freepatentsonline.com/).
+ []
 
- [10]
-[11]
+[10] [11]
 \openout2 = `USPSC-Cap2-Desenvolvimento.aux'.
 
  (./USPSC-Cap2-Desenvolvimento.tex [12
@@ -1411,7 +1413,7 @@ ame identifier (name{figure.2.2}) has been already used, duplicate ignored
 l.46 \section
              {Resultados parciais} <./imagens/tcc_webscraping.jpg> <./imagens/t
 cc_dicionario.jpg>]
-<imagens/wordcloud_preprocess.png, id=184, 1204.5pt x 803.0pt>
+<imagens/wordcloud_preprocess.png, id=185, 1204.5pt x 803.0pt>
 File: imagens/wordcloud_preprocess.png Graphic file (type png)
 <use imagens/wordcloud_preprocess.png>
 Package pdftex.def Info: imagens/wordcloud_preprocess.png  used on input line 5
@@ -1424,13 +1426,13 @@ Package pdftex.def Info: imagens/wordcloud_preprocess.png  used on input line 5
                                                   \fi \fi 
 l.67 
       <./imagens/wordcloud_preprocess.png (PNG copy)>]
-<imagens/distr_dos_valores_de_coherence.png, id=191, 736.7525pt x 397.485pt>
+<imagens/distr_dos_valores_de_coherence.png, id=192, 736.7525pt x 397.485pt>
 File: imagens/distr_dos_valores_de_coherence.png Graphic file (type png)
 <use imagens/distr_dos_valores_de_coherence.png>
 Package pdftex.def Info: imagens/distr_dos_valores_de_coherence.png  used on in
 put line 70.
 (pdftex.def)             Requested size: 442.05492pt x 238.49283pt.
-<imagens/construcao_dicionario1.png, id=193, 1223.57124pt x 841.1425pt>
+<imagens/construcao_dicionario1.png, id=196, 1223.57124pt x 841.1425pt>
 File: imagens/construcao_dicionario1.png Graphic file (type png)
 <use imagens/construcao_dicionario1.png>
 Package pdftex.def Info: imagens/construcao_dicionario1.png  used on input line
@@ -1446,10 +1448,10 @@ Overfull \hbox (34.41983pt too wide) in paragraph at lines 83--85
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.96 
-      <./imagens/distr_dos_valores_de_coherence.png>]) [17pdfTeX warning (ext4)
-: destination with the same identifier (name{figure.2.5}) has been already used
-, duplicate ignored
+l.92 \section
+             {DiscussÃ£o parcial} <./imagens/distr_dos_valores_de_coherence.png
+>]) [17pdfTeX warning (ext4): destination with the same identifier (name{figure
+.2.5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1482,11 +1484,11 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 503.
  ) 
 Here is how much of TeX's memory you used:
- 15180 strings out of 492982
- 226682 string characters out of 6134896
+ 15186 strings out of 492982
+ 226746 string characters out of 6134896
  498529 words of memory out of 5000000
  18340 multiletter control sequences out of 15000+600000
- 47143 words of font info for 76 fonts, out of 8000000 for 9000
+ 47416 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  43i,18n,43p,955b,524s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/
@@ -1494,10 +1496,10 @@ public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/sh
 are/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/
 lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/te
 xmf/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on TCC.pdf (21 pages, 1132821 bytes).
+Output written on TCC.pdf (21 pages, 1133347 bytes).
 PDF statistics:
- 339 PDF objects out of 1000 (max. 8388607)
- 294 compressed objects within 3 object streams
+ 342 PDF objects out of 1000 (max. 8388607)
+ 297 compressed objects within 3 object streams
  66 named destinations out of 1000 (max. 500000)
  15622 words of extra memory for PDF output out of 17280 (max. 10000000)
 
