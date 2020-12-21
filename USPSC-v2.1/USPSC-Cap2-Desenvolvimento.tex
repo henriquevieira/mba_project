@@ -87,12 +87,27 @@ Examinamos o tópicos obtidos através da ferramenta pyLDAvis, figura \ref{pyLDA
 
 \subsubsection{Expansão do dicionário}
 
-Os tópicos geraram no total de 119 palavras únicas que foram submetidas ao wordnet e adicionado os sinônimos, hiperônimos e hipônimos destes termos, totalizando 673 termos que representam cada tópico. A estrutura do dicionario criado é composta por duas colunas, a primeira é o tópico e a segunda são os termos que estão atrelada ao tópico.
+Antes de expandir o dicionário, realizamos a remoção dois tópicos que estavam muito similares. Os tópicos geraram no total de 98 palavras únicas que foram submetidas ao wordnet e adicionado os sinônimos, hiperônimos e hipônimos destes termos, totalizando 433 termos que representam cada tópico. A estrutura do dicionário criado é composta por três colunas, a primeira é o tópico, a segunda são os termos que estão atrelada ao tópico e a terceira coluna são as palavras derivadas dos termos.
+
+	Obtivemos no final um dicionário com com 954 linhas e três colunas, que foi utilizado para fazer uma classificação inicial dos documentos de patentes.
+	
+\subsubsection{Modelo}
+
+Para a construção do modelo, realizamos um pre processamento convertendo o conteúdo do documento de patente em uma matriz documento-termo, esta matriz tem a estrutura da seguinte forma:
+
+\begin{itemize}
+  \item colunas: palavras de relevância
+  \item linhas: documentos
+  \item valores: correspondem ao valor de TF-IDF obtido, quando a palavra não consta na entrada, o valor será igual a zero.
+\end{itemize}
+	
+	O modelo testado foi o Random Forest, com critério de separação Gini, obtendo um score igual a 0,56.
 
 \section{Discussão parcial}
 
 Conseguimos realizar a extração bem sucedida de uma amostra de documentos de patentes, do qual pré processamos e criamos um corpora que poderá ser usado não somente para este trabalho como para outros trabalhos com documentos de patentes. Fizemos um primeiro levantamento dos tópicos usando o modelo LDA e obtivemos 20 tópicos que serão avaliados e rotulados corretamente. 
-Utilizando termos simples para rotular os tópicos neste primeiro momento, expandimos com termos que são sinônimos, hiperônimos e hipônimos dos termos associados aos tópicos. 
+Utilizando termos simples para rotular os tópicos neste primeiro momento percebemos que dois tópicos puderam ser removidos por serem semelhantes. Com os termos, expandimos com novos termos que são sinônimos, hiperônimos e hipônimos dos termos associados aos tópicos fazendo com que o nosso dicionário cubra uma área maior do assunto. 
+Realizamos a construção de um modelo a partir do Random Forest, onde obtivemos o valor de score de 0,56, este é um valor ruim, o que era esperado era algo acima de 0,70. 
 
-Para os próximos passos, desenvolveremos um modelo para classificar os documentos de patentes a partir do dicionario criado. 
+Para os próximos passos para a finalização do trabalho, esperamos aumentar o tamanho da base de dados, testar um conjunto de parâmetros que auxiliem ao modelo resultar em um score mais alto e testar o modelo Naive Bayes e SVM.
 

@@ -1,6 +1,6 @@
 \changetocdepth {4}
-\babel@toc {brazil}{}
-\babel@toc {brazil}{}
+\select@language {brazil}
+\select@language {brazil}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
@@ -26,7 +26,8 @@
 \contentsline {subsubsection}{\numberline {2.3.2.1}Levantamento de t\IeC {\'o}picos}{15}{subsubsection.2.3.2.1}
 \contentsline {subsubsection}{\numberline {2.3.2.2}Valida\IeC {\c c}\IeC {\~a}o dos t\IeC {\'o}picos}{16}{subsubsection.2.3.2.2}
 \contentsline {subsubsection}{\numberline {2.3.2.3}Expans\IeC {\~a}o do dicion\IeC {\'a}rio}{16}{subsubsection.2.3.2.3}
-\contentsline {section}{\numberline {2.4}Discuss\IeC {\~a}o parcial}{17}{section.2.4}
+\contentsline {subsubsection}{\numberline {2.3.2.4}Modelo}{17}{subsubsection.2.3.2.4}
+\contentsline {section}{\numberline {2.4}Discuss\IeC {\~a}o parcial}{18}{section.2.4}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \contentsline {chapter}{\uppercase {Refer\^encias}}{19}{section*.7}
