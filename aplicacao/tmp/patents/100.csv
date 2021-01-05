@@ -1,0 +1,511 @@
+idx,title_raw,text_raw
+0387659,"
+
+                    SYSTEMS AND METHODS FOR ADJUSTING THE OUTPUT OF A FIELD MEASUREMENT SYSTEM TO CONFORM TO AGRONOMY MEASUREMENTS                
+","
+            The present disclosure provides systems and methods for adjusting the output of a field measurement system to conform to agronomy measurements. In particular, the present subject matter is directed to a calibration process and system that uses a calibration model to convert field measurement data expressed according to an automatic system metric into agronomy data that is expressed according to an agronomy metric.         "
+10729058,"
+
+                    Systems and methods for adjusting the output of a field measurement system to conform to agronomy measurements                
+","
+            The present disclosure provides systems and methods for adjusting the output of a field measurement system to conform to agronomy measurements. In particular, the present subject matter is directed to a calibration process and system that uses a calibration model to convert field measurement data expressed according to an automatic system metric into agronomy data that is expressed according to an agronomy metric.         "
+6745128,"
+
+                    Methods and systems for managing farmland                
+","
+            Methods and systems for characterizing and managing plots of land is provided. Information related to elevation, soil conductivity, crop yield, and grower history is organized into profiles to generate a management zone profile. The management zone profile divides the plot of land into agronomy zones having attributable characteristics related to the elevation, soil conductivity, crop yield, and grower history information. The management zone profile is utilized to create a variable prescription of items, such as fertilizer, seed and pesticides, to be applied to the plot of land.        "
+6549852,"
+
+                    Methods and systems for managing farmland                
+","
+            Methods and systems for characterizing and managing plots of land is provided. Information related to elevation, soil conductivity, crop yield, and grower history is organized into profiles to generate a management zone profile. The management zone profile divides the plot of land into agronomy zones having attributable characteristics related to the elevation, soil conductivity, crop yield, and grower history information. The management zone profile is utilized to create a variable prescription of items, such as fertilizer, seed and pesticides, to be applied to the plot of land.        "
+0018431,"
+
+                    METHODS AND SYSTEMS FOR MANAGING FARMLAND                
+","
+            Methods and systems for characterizing and managing plots of land is provided. Information related to elevation, soil conductivity, crop yield, and grower history is organized into profiles to generate a management zone profile. The management zone profile divides the plot of land into agronomy zones having attributable characteristics related to the elevation, soil conductivity, crop yield, and grower history information. The management zone profile is utilized to create a variable prescription of items, such as fertilizer, seed and pesticides, to be applied to the plot of land.        "
+0125877,"
+
+                    Methods and systems for managing farmland                
+","
+            Methods and systems for characterizing and managing plots of land is provided. Information related to elevation, soil conductivity, crop yield, and grower history is organized into profiles to generate a management zone profile. The management zone profile divides the plot of land into agronomy zones having attributable characteristics related to the elevation, soil conductivity, crop yield, and grower history information. The management zone profile is utilized to create a variable prescription of items, such as fertilizer, seed and pesticides, to be applied to the plot of land.        "
+0155623,"
+
+                    Agronomy bonus system and method                
+","
+            A method and system for encouraging farmers to sell at least portions of their production through an agricultural cooperative entity, wherein a farmer earns price discounts and/or rebates for purchases from the entity of inputs to his or her production upon sale of such production. The farmer contracts to sale such production either at or above a set price on a fixed date by way of selling a Chicago Board of Trade or a Minneapolis Grain Exchange call option or a swap in the Over The Counter Market or, if that price is not achieved, to sale within a year of his or her contract at a price of his or her choosing. The rebate or discount, as a portion of the call option or swap premium received, is then made available to the farmer for purchasing any of selected inputs available through the entity.        "
+10796261,"
+
+                    Agricultural enterprise management method and system                
+","
+            A computer-implemented cloud-based agricultural enterprise management system and methods. The system comprises a plurality of modular components for receiving and processing data pertaining to agricultural production of commodities by an agricultural producer and for centralizing and storing the received and/or processed data in a single cloud-based database. The producer can provide to one or more third-party suppliers and/or service providers, authorized but restricted access to selected components of their agricultural enterprise management system and cloud-based database so that together, the producer, suppliers and service providers can effectively and cost-efficiently plan and manage the delivery of products and services during a crop production cycle, and the sale of harvested agricultural commodities. Separate modular components may be provided for inputs exemplified by agronomy data, crop production inputs data, crop growth and performance tracking, commodity market data, weather monitoring and forecasting, farm equipment maintenance, enterprise management overhead components.         "
+0394579,"
+
+                                    AGRICULTURAL ENTERPRISE MANAGEMENT METHOD AND SYSTEM                                
+","
+                                United States Patent Application 20200394579                            
+Kind Code:
+                            
+
+                                A1                            
+"
+0322426,"
+
+                    AGRICULTURAL ENTERPRISE MANAGEMENT METHOD AND SYSTEM                
+","
+            A computer-implemented cloud-based agricultural enterprise management system and methods. The system comprises a plurality of modular components for receiving and processing data pertaining to agricultural production of commodities by an agricultural producer and for centralizing and storing the received and/or processed data in a single cloud-based database. The producer can provide to one or more third-party suppliers and/or service providers, authorized but restricted access to selected components of their agricultural enterprise management system and cloud-based database so that together, the producer, suppliers and service providers can effectively and cost-efficiently plan and manage the delivery of products and services during a crop production cycle, and the sale of harvested agricultural commodities. Separate modular components may be provided for inputs exemplified by agronomy data, crop production inputs data, crop growth and performance tracking, commodity market data, weather monitoring and forecasting, farm equipment maintenance, enterprise management overhead components.         "
+0191630,"
+
+                    AUGMENTED-HUMAN FIELD INSPECTION TOOLS FOR AUTOMATED PHENOTYPING SYSTEMS AND AGRONOMY TOOLS                
+","
+            Systems and Methods for Augmented-Human Field Inspection Tools for Automated Phenotyping Systems and Agronomy Tools. In one embodiment, a method for plant phenotyping, includes: acquiring a first set of observations about plants in a field by a trainer. The trainer carries a sensor configured to collect observations about the plant, and the first set of observations includes ground truth data. The method also includes processing the first set of observations about the plants by a trait extraction model to generate instructions for a trainee; and acquiring a second set of observations about the plants by a trainee while the trainee follows the instructions.         "
+10638667,"
+
+                    Augmented-human field inspection tools for automated phenotyping systems and agronomy tools                
+","
+            Systems and Methods for Augmented-Human Field Inspection Tools for Automated Phenotyping Systems and Agronomy Tools. In one embodiment, a method for plant phenotyping, includes: acquiring a first set of observations about plants in a field by a trainer. The trainer carries a sensor configured to collect observations about the plant, and the first set of observations includes ground truth data. The method also includes processing the first set of observations about the plants by a trait extraction model to generate instructions for a trainee; and acquiring a second set of observations about the plants by a trainee while the trainee follows the instructions.         "
+0314949,"
+
+                    COGNITIVE BASED DECISION SUPPORT SYSTEM FOR AGRICULTURE                
+","
+            A method, computer program product, and system includes a processor(s) obtaining real time data related to an agricultural site by continuously monitoring remote data collection entities at the agricultural site, which include satellites, ground monitoring stations, and sensors. The processor(s) determine which data of the real time data can be utilized in subsequent decisions and accumulate a portion of the real time data in a data store, based on a timestamp of the portion indicating that the portion of the real time data is no longer current and is historical data. Based on obtaining a request for a recommendation, the processor(s) generate based on a cognitive analysis of the historical data, the real time data that can be utilized, and the agricultural data from the controlled environment, at least one agricultural model. The processor(s) determine the recommendation from the model and transmit the recommendation to the client.         "
+0347836,"
+
+                    DIGITAL VISUALIZATION OF PERIODICALLY UPDATED IN-SEASON AGRICULTURAL FERTILITY PRESCRIPTIONS                
+","
+            Display of graphical maps of agricultural fields, coded with color or other indicators of values of data pertaining to agronomy at high resolution, and updated on a daily basis or on demand by recalculating agronomy models with the high-resolution data, is disclosed. Map displays may include multiple layers that relate to different agronomy metrics, and GUI widgets that are programmed to receive selection of values indicating different field properties or layers to display. In an embodiment, a computer-implemented data processing method providing an improvement in efficient calculation of digital data representing physical properties of agricultural fields, the method comprising receiving digital input specifying a request to display a map image of a specified agricultural field for a particular day; in response to receiving the input, calculating an interpolated digital image of the specified agricultural field with a plurality of different field properties, by: dividing a digital map of the specified field into a plurality of grids each having a same size and a same area; obtaining, from digital storage, a plurality of data for the different field properties and assigning the data as covariates; grouping the grids into a specified number of clusters based on values of the covariates; pseudo-randomly selecting a specified number of one or more sample values in each of the clusters; evaluating a digital fertility model using the sample values and storing a plurality of output values from the digital fertility model; interpolating a plurality of model values for the grids; generating and causing displaying a visual graphical image of the specified agricultural field including color pixels corresponding to each of the model values.         "
+0026554,"
+
+                    Multilayer UAS Image Ortho-Mosaics for Field-Based High-Throughput Phenotyping                
+","
+            Multilayer UAS image ortho-mosaics is used to help remote sensing, agronomy and plant breeding (especially field-based high-throughput phenotyping).         "
+5689418,"
+
+                    Agricultural communication network                
+","
+            An agricultural communications network including a master system which polls lower level systems for digital maps, each map comprising field character information indicative of a feature at each location of a farmer's field. An agronomist can correlate the data of the digital maps to ascertain common conditions which realize maximum yields. Farmers and their regional dealers participate in the system through subscription. Anonymity is maintained through hierarchy such that the farmers will participate in the network, thus expanding the data base for use by the agronomist. Thus, the participating subscribers facilitate expansion of the field of agronomy for the benefit of all.        "
+0160459,"
+
+                    CROP MANAGEMENT METHOD AND SYSTEM                
+","
+            A computer-implemented cloud-based agricultural enterprise management system and methods. The system comprises a plurality of modular components for receiving and processing data pertaining to agricultural production of commodities by an agricultural producer and for centralizing and storing the received and/or processed data in a single cloud-based database. The producer can provide to one or more third-party suppliers and/or service providers, authorized but restricted access to selected components of their agricultural enterprise management system and cloud-based database so that together, the producer, suppliers and service providers can effectively and cost-efficiently plan and manage the delivery of products and services during a crop production cycle, and the sale of harvested agricultural commodities. Separate modular components may be provided for inputs exemplified by agronomy data, crop production inputs data, and crop growth and performance tracking.         "
+6345108,"
+
+                    Multivariable statistical method for characterizing images that have been formed of a complex environment such as the subsoil                
+","
+            The invention is a statistical method for analyzing exploration data associated with image elements showing physical properties of a complex environment such as subsoil for identifying the spatial relations between image elements. The method comprises successive identification of the spatial structures of the data, separation of these spatial structures with removal of possible redundancies, formation, from initial images, of synthetic images or spatial components that show the spatial structures of the data, providing a typology of the initial images according to the spatial structures shown by the spatial components, and filtering of the initial images in order to suppress the noise and to select one or more identified spatial structures. The method can be used for study of any spatial data, notably in geosciences in order to process seismic images of the subsoil, but also in geography, agronomy, hydrology, geomarketing, etc.        "
+5121708,"
+
+                    Hydroculture crop production system                
+","
+            This invention is a system for raising land and aquatic, plant and animal crops in a symbiotic-type polyculture using organic/sustainable methods of agronomy, animal husbandry, aquaculture, and hydroponics whereby yields are optimized while reducing production costs, conserving resources, and protecting the environment. Year-round production is also achieved by providing a canopy means along with additional environmental control and supplemental systems that increase yields in temperature zones normally having ambient temperature fluctuations too great to sustain production for more than a few months per year. Any number of cropping combinations are possible, but as an example, this system would establish a beneficial symbiotic-type production link between poultry, microalgae, fish and aquatic animals that consume algae, and vegetables or other land crops.        "
+10495786,"
+
+                    Weather and satellite model for estimating solar irradiance                
+","
+            Solar irradiance, the energy from the Sun's electromagnetic radiation, has a wide range of applications from meteorology to agronomy to solar power. Solar irradiance is primarily determined by a location's spatial relationship with the Sun and the atmospheric conditions that impact the transmission of the radiation. The spatial relationship between the Sun and a location on Earth is determined by established astronomical formulas. The impact of atmospheric conditions may be estimated via proxy using pixels from satellite imagery. While satellite-based irradiance estimation has proven effective, availability of the input data can be limited and the resolution is often incapable of capturing local weather phenomena. Brief qualitative descriptions of general atmospheric conditions are widely available from internet weather services at higher granularity than satellite imagery. This methodology provides logic for quantifying the impact of qualitative weather observations upon solar irradiance, and the integration of this methodology into solar irradiance estimation models.         "
+9322951,"
+
+                    Weather and satellite model for estimating solar irradiance                
+","
+            Solar irradiance, the energy from the Sun's electromagnetic radiation, has a wide range of applications from meteorology to agronomy to solar power. Solar irradiance is primarily determined by a location's spatial relationship with the Sun and the atmospheric conditions that impact the transmission of the radiation. The spatial relationship between the Sun and a location on Earth is determined by established astronomical formulas. The impact of atmospheric conditions may be estimated via proxy using pixels from satellite imagery. While satellite-based irradiance estimation has proven effective, availability of the input data can be limited and the resolution is often incapable of capturing local weather phenomena. Brief qualitative descriptions of general atmospheric conditions are widely available from internet weather services at higher granularity than satellite imagery. This methodology provides logic for quantifying the impact of qualitative weather observations upon solar irradiance, and the integration of this methodology into solar irradiance estimation models.         "
+0166266,"
+
+                    WEATHER AND SATELLITE MODEL FOR ESTIMATING SOLAR IRRADIANCE                
+","
+            Solar irradiance, the energy from the Sun's electromagnetic radiation, has a wide range of applications from meteorology to agronomy to solar power. Solar irradiance is primarily determined by a location's spatial relationship with the Sun and the atmospheric conditions that impact the transmission of the radiation. The spatial relationship between the Sun and a location on Earth is determined by established astronomical formulas. The impact of atmospheric conditions may be estimated via proxy using pixels from satellite imagery. While satellite-based irradiance estimation has proven effective, availability of the input data can be limited and the resolution is often incapable of capturing local weather phenomena. Brief qualitative descriptions of general atmospheric conditions are widely available from internet weather services at higher granularity than satellite imagery. This methodology provides logic for quantifying the impact of qualitative weather observations upon solar irradiance, and the integration of this methodology into solar irradiance estimation models.         "
+0026740,"
+
+                    WEATHER AND SATELLITE MODEL FOR ESTIMATING SOLAR IRRADIANCE                
+","
+            Solar irradiance, the energy from the Sun's electromagnetic radiation, has a wide range of applications from meteorology to agronomy to solar power. Solar irradiance is primarily determined by a location's spatial relationship with the Sun and the atmospheric conditions that impact the transmission of the radiation. The spatial relationship between the Sun and a location on Earth is determined by established astronomical formulas. The impact of atmospheric conditions may be estimated via proxy using pixels from satellite imagery. While satellite-based irradiance estimation has proven effective, availability of the input data can be limited and the resolution is often incapable of capturing local weather phenomena. Brief qualitative descriptions of general atmospheric conditions are widely available from internet weather services at higher granularity than satellite imagery. This methodology provides logic for quantifying the impact of qualitative weather observations upon solar irradiance, and the integration of this methodology into solar irradiance estimation models.         "
+0222223,"
+
+                    WEB-BASED IRRIGATION CONTROLLER                
+","
+            A web-based irrigation controller with application server can avoid need for access points for irrigation controller communications to the application server, need for configurations on any number of any type of web-based appliances to communicate to the application server, and can provide easy access to giant databases of weather and plant growing information, automatic control and simplification for the plant and lawn growing effort, easy access to reports of actual water usage and power usage and maintenance problems, using sprinklers in an unusual manner to scare away birds from a freshly seeded lawn, reducing lawn water usage for unskilled users by backing off lawn timings until the user intervenes, slow seasonal adjustment to watering times without need for application server intervention, life-cycle based watering schedules based on types of garden plantings and easy for the user to follow the actions of a local amateur master gardener in growing similar plants.         "
+3798838,"
+
+                    METHOD OF IRRIGATION AND FERTILIZATION                
+","
+            Fertilization and irrigation of highly permeable surface soils in semi-arid regions is described wherein the soils are contacted with an aqueous solution of a water soluble plant nutrient salt and an effective amount of a partially hydrolyzed polyacrylamide to reduce the permeability of the soil without rendering it impermeable to water flow. It has been found that water soluble plant nutrients and the aforementioned partially hydrolyzed polyacrylamide exhibit a synergistic effect to decrease the water permeability of the soils. It has also been found that plants grow better in the treated soil and are more efficient in uptake of nutrients from the soil. These discoveries can be used to conserve water and fertilizer and improve the efficiency of agronomy by contacting the soil with a solution having a concentration of from 0.001 to about 1 weight percent of a polyacrylamide having from 5 to about 80 percent of its amide groups hydrolyzed to carboxylic acid groups and from 0.001 to 5 weight percent of a water soluble, plant nutrient salt.        "
+4485409,"
+
+                    Data acquisition system for large format video display                
+","
+            A new revolutionary approach to image processing is disclosed. The current limitations of video technology in video image analysis and processing are eliminated. A new ""large format"" data acquisition system is described which permits a user of the system to process analog data with any required degree of resolution. The degree of resolution obtainable is limited only by the application and source data in connection with which the system is being utilized. The preferred embodiment of the invention permits the analog data source, a map, a photograph, an x-ray, or any other two or three dimensional object or data that can be imaged on a video system, to be segmented into a series of video images which, when sequentially processed, produce an accurate mosaic of the original image. In this manner the size, the shape or image of a rock, a tree or a pond in a photograph of a one acre field can be precisely viewed, measured or outlined for whatever purpose the user of the system desires. The basic components of the system are an X-Y positioning table, a microcomputer, a video camera for acquiring the segmented images, and an ordinary TV set for use in display and analysis of the segmented images that make up the entire analog record of the original image. The possible applications of the system are virtually unlimited in the fields of agriculture, agronomy, animal husbandry, manufacturing, quality control, weather, medicine, and the like, and the possible forms of analysis are similarly unlimited in that the system can be used for analysis of area, distance measurements, density, heat characteristics or any other subject which can be electromagnetically imaged.        "
+8911525,"
+
+                    Engineered soilless plant culitvation medium                
+","
+            An engineered soilless plant cultivation medium for potting applications includes specific balanced amounts of nutrient additives. Major nutrient cations (Ca, Mg, K, Na, H) are balanced according to optimal base saturation percentage ranges. Nutrient levels, namely, the amount of major nutrient cations, major nutrient anions and minor nutrients satisfy desired ranges for both standard Mehlich III soil extraction tests and saturated paste tests.         "
+10482539,"
+
+                    Methods and systems for precision crop management                
+","
+            The disclosure relates to methods and related systems for precision crop modeling and management using the same. Precision crop modeling and management can be incorporated into various methods for growing plants such as crop plants and various methods for managing the growth of such plants in a particular field. The methods generally utilize in-season information relating to weather conditions actually experienced by the field to prepare mid-season, updated crop management plans. A crop management plan is determined using a crop model incorporating a variety of inputs and plant-specific material and energy balances to specify one or more grower-controlled management parameters. An updated plan for a given field can be followed by a grower to increase crop yield and/or optimize one or more other crop or field parameters.         "
+0227749,"
+
+                    METHOD FOR ENHANCING THE FERMENTATIVE POTENTIAL AND GROWTH RATE OF MICROORGANISMS UNDER ANAEROBIOSIS                
+","
+            The present invention concerns a method for enhancing the growth rate, the biomass production and/or the fermentative potential of an anaerobic microorganism, comprising the steps consisting in: (a) modifying said anaerobic microorganism by inactivating the ohrR gene, the ohrR gene product or homolog thereof; (b) culturing the modified anaerobic microorganism obtained in step (a) under low-ORP anaerobic conditions.         "
+9765344,"
+
+                    Method for enhancing the fermentative potential and growth rate of microorganisms under anaerobiosis                
+","
+            The present invention concerns a method for enhancing the growth rate, the biomass production and/or the fermentative potential of an anaerobic microorganism, comprising the steps consisting in: (a) modifying said anaerobic microorganism by inactivating the ohrR gene, the ohrR gene product or homolog thereof; (b) culturing the modified anaerobic microorganism obtained in step (a) under low-ORP anaerobic conditions.         "
+5518989,"
+
+                    Seed vigor by pre-harvest defoliation of maize plants                
+","
+            An increase in the quality of maize seed, especially with respect to improved seed vigor, is achieved by defoliating maize plants during a specific period after pollination. A maize seed assemblage then is obtained that is characterized by an enhanced seed vigor.        "
+6162974,"
+
+                    Seed vigor by pre-harvest defoliation of maize plants                
+","
+            An increase in the quality of maize seed, especially with respect to improved seed vigor, is achieved by defoliating maize plants during a specific period after pollination. A maize seed assemblage then is obtained that is characterized by an enhanced seed vigor.        "
+5451242,"
+
+                    Active synthetic soil                
+","
+            A synthetic soil/fertilizer for horticultural application having all the agronutrients essential for plant growth is disclosed. The soil comprises a synthetic apatite fertilizer having sulfur, magnesium and micronutrients dispersed in a calcium phosphate matrix, a zeolite cation exchange medium saturated with a charge of potassium and nitrogen cations, and an optional pH buffer. Moisture dissolves the apatite and mobilizes the nutrient elements from the apatite matrix and the zeolite charge sites.        "
+5750845,"
+
+                    Soybeans capable of forming a vegetable oil having a low saturated fatty acid content                
+","
+            A method is described for producing soybean varieties and lines exhibiting low palmitic acid contents of less than about 6.0% of the total fatty acid composition down to no more than about 2.4% or lower. The novel soybean lines are obtained by crossing C1726 and A1973NMU-173 and by utilizing selected progeny from such crossing. Soybean lines having stearic acid contents of less than about 3.0%, down to about 1.5% and total saturated fatty acid contents less than about 7.0% down to no more than about 4.0% are also disclosed.        "
+5585535,"
+
+                    Soybeans and soybean products having low palmitic acid content                
+","
+            A method is described for producing soybean varieties and lines exhibiting low palmitic acid contents of less than about 6.0% of the total fatty acid composition down to no more than about 2.4% or lower. The novel soybean lines are obtained by crossing C1726 and A1973NMU-173 and by utilizing selected progeny from such crossing. Soybean lines having stearic acid contents of less than about 3.0%, down to about 1.5% and total saturated fatty acid contents less than about 7.0% down to no more than about 4.0% are also disclosed.        "
+5750844,"
+
+                    Soybeans capable of forming a vegetable oil having specified concentrations of palmitic and stearic acids                
+","
+            A method is described for producing soybean varieties and lines exhibiting low palmitic acid contents of less than about 6.0% of the total fatty acid composition down to no more than about 2.4% or lower. The novel soybean lines are obtained by crossing C1726 and A1973NMU-173 and by utilizing selected progeny from such crossing. Soybean lines having stearic acid contents of less than about 3.0%, down to about 1.5% and total saturated fatty acid contents less than about 7.0% down to no more than about 4.0% are also disclosed.        "
+10238055,"
+
+                    Plants and seeds of hybrid corn variety CH316508                
+","
+            According to the invention, there is provided seed and plants of the hybrid corn variety designated CH316508. The invention thus relates to the plants, seeds and tissue cultures of the variety CH316508, and to methods for producing a corn plant produced by crossing a corn plant of variety CH316508 with itself or with another corn plant, such as a plant of another variety. The invention further relates to genetic complements of plants of variety CH316508.         "
+10051821,"
+
+                    Plants and seeds of hybrid corn variety CH858017                
+","
+            According to the invention, there is provided seed and plants of the hybrid corn variety designated CH858017. The invention thus relates to the plants, seeds and tissue cultures of the variety CH858017, and to methods for producing a corn plant produced by crossing a corn plant of variety CH858017 with itself or with another corn plant, such as a plant of another variety. The invention further relates to genetic complements of plants of variety CH858017.         "
+10080340,"
+
+                    Plants and seeds of hybrid corn variety CH894945                
+","
+            According to the invention, there is provided seed and plants of the hybrid corn variety designated CH894945. The invention thus relates to the plants, seeds and tissue cultures of the variety CH894945, and to methods for producing a corn plant produced by crossing a corn plant of variety CH894945 with itself or with another corn plant, such as a plant of another variety. The invention further relates to genetic complements of plants of variety CH894945.         "
+9888661,"
+
+                    Plants and seeds of hybrid corn variety CH247697                
+","
+            According to the invention, there is provided seed and plants of the hybrid corn variety designated CH247697. The invention thus relates to the plants, seeds and tissue cultures of the variety CH247697, and to methods for producing a corn plant produced by crossing a corn plant of variety CH247697 with itself or with another corn plant, such as a plant of another variety. The invention further relates to genetic complements of plants of variety CH247697.         "
+9992962,"
+
+                    Plants and seeds of hybrid corn variety CH236670                
+","
+            According to the invention, there is provided seed and plants of the hybrid corn variety designated CH236670. The invention thus relates to the plants, seeds and tissue cultures of the variety CH236670, and to methods for producing a corn plant produced by crossing a corn plant of variety CH236670 with itself or with another corn plant, such as a plant of another variety. The invention further relates to genetic complements of plants of variety CH236670.         "
+10231402,"
+
+                    Plants and seeds of hybrid corn variety CH301676                
+","
+            According to the invention, there is provided seed and plants of the hybrid corn variety designated CH301676. The invention thus relates to the plants, seeds and tissue cultures of the variety CH301676, and to methods for producing a corn plant produced by crossing a corn plant of variety CH301676 with itself or with another corn plant, such as a plant of another variety. The invention further relates to genetic complements of plants of variety CH301676.         "
+10278354,"
+
+                    Plants and seeds of hybrid corn variety CH302224                
+","
+            According to the invention, there is provided seed and plants of the hybrid corn variety designated CH302224. The invention thus relates to the plants, seeds and tissue cultures of the variety CH302224, and to methods for producing a corn plant produced by crossing a corn plant of variety CH302224 with itself or with another corn plant, such as a plant of another variety. The invention further relates to genetic complements of plants of variety CH302224.         "
+10226019,"
+
+                    Plants and seeds of hybrid corn variety CH280838                
+","
+            According to the invention, there is provided seed and plants of the hybrid corn variety designated CH280838. The invention thus relates to the plants, seeds and tissue cultures of the variety CH280838, and to methods for producing a corn plant produced by crossing a corn plant of variety CH280838 with itself or with another corn plant, such as a plant of another variety. The invention further relates to genetic complements of plants of variety CH280838.         "
+10064366,"
+
+                    Plants and seeds of hybrid corn variety CH572523                
+","
+            According to the invention, there is provided seed and plants of the hybrid corn variety designated CH572523. The invention thus relates to the plants, seeds and tissue cultures of the variety CH572523, and to methods for producing a corn plant produced by crossing a corn plant of variety CH572523 with itself or with another corn plant, such as a plant of another variety. The invention further relates to genetic complements of plants of variety CH572523.         "
+9894874,"
+
+                    Plants and seeds of hybrid corn variety CH858215                
+","
+            According to the invention, there is provided seed and plants of the hybrid corn variety designated CH858215. The invention thus relates to the plants, seeds and tissue cultures of the variety CH858215, and to methods for producing a corn plant produced by crossing a corn plant of variety CH858215 with itself or with another corn plant, such as a plant of another variety. The invention further relates to genetic complements of plants of variety CH858215.         "
+10154643,"
+
+                    Plants and seeds of hybrid corn variety CH581470                
+","
+            According to the invention, there is provided seed and plants of the hybrid corn variety designated CH581470. The invention thus relates to the plants, seeds and tissue cultures of the variety CH581470, and to methods for producing a corn plant produced by crossing a corn plant of variety CH581470 with itself or with another corn plant, such as a plant of another variety. The invention further relates to genetic complements of plants of variety CH581470.         "
+10091964,"
+
+                    Plants and seeds of hybrid corn variety CH646811                
+","
+            According to the invention, there is provided seed and plants of the hybrid corn variety designated CH646811. The invention thus relates to the plants, seeds and tissue cultures of the variety CH646811, and to methods for producing a corn plant produced by crossing a corn plant of variety CH646811 with itself or with another corn plant, such as a plant of another variety. The invention further relates to genetic complements of plants of variety CH646811.         "
+10130064,"
+
+                    Plants and seeds of hybrid corn variety CH714438                
+","
+            According to the invention, there is provided seed and plants of the hybrid corn variety designated CH714438. The invention thus relates to the plants, seeds and tissue cultures of the variety CH714438, and to methods for producing a corn plant produced by crossing a corn plant of variety CH714438 with itself or with another corn plant, such as a plant of another variety. The invention further relates to genetic complements of plants of variety CH714438.         "
+9907286,"
+
+                    Plants and seeds of hybrid corn variety CH229513                
+","
+            According to the invention, there is provided seed and plants of the hybrid corn variety designated CH229513. The invention thus relates to the plants, seeds and tissue cultures of the variety CH229513, and to methods for producing a corn plant produced by crossing a corn plant of variety CH229513 with itself or with another corn plant, such as a plant of another variety. The invention further relates to genetic complements of plants of variety CH229513.         "
+9974273,"
+
+                    Plants and seeds of hybrid corn variety CH286684                
+","
+            According to the invention, there is provided seed and plants of the hybrid corn variety designated CH286684. The invention thus relates to the plants, seeds and tissue cultures of the variety CH286684, and to methods for producing a corn plant produced by crossing a corn plant of variety CH286684 with itself or with another corn plant, such as a plant of another variety. The invention further relates to genetic complements of plants of variety CH286684.         "
+9992964,"
+
+                    Plants and seeds of hybrid corn variety CH241434                
+","
+            According to the invention, there is provided seed and plants of the hybrid corn variety designated CH241434. The invention thus relates to the plants, seeds and tissue cultures of the variety CH241434, and to methods for producing a corn plant produced by crossing a corn plant of variety CH241434 with itself or with another corn plant, such as a plant of another variety. The invention further relates to genetic complements of plants of variety CH241434.         "
+9986710,"
+
+                    Plants and seeds of hybrid corn variety CH725740                
+","
+            According to the invention, there is provided seed and plants of the hybrid corn variety designated CH725740. The invention thus relates to the plants, seeds and tissue cultures of the variety CH725740, and to methods for producing a corn plant produced by crossing a corn plant of variety CH725740 with itself or with another corn plant, such as a plant of another variety. The invention further relates to genetic complements of plants of variety CH725740.         "
+10130065,"
+
+                    Plants and seeds of hybrid corn variety CH784094                
+","
+            According to the invention, there is provided seed and plants of the hybrid corn variety designated CH784094. The invention thus relates to the plants, seeds and tissue cultures of the variety CH784094, and to methods for producing a corn plant produced by crossing a corn plant of variety CH784094 with itself or with another corn plant, such as a plant of another variety. The invention further relates to genetic complements of plants of variety CH784094.         "
+10143160,"
+
+                    Plants and seeds of hybrid corn variety CH831308                
+","
+            According to the invention, there is provided seed and plants of the hybrid corn variety designated CH831308. The invention thus relates to the plants, seeds and tissue cultures of the variety CH831308, and to methods for producing a corn plant produced by crossing a corn plant of variety CH831308 with itself or with another corn plant, such as a plant of another variety. The invention further relates to genetic complements of plants of variety CH831308.         "
+10154642,"
+
+                    Plants and seeds of hybrid corn variety CH283398                
+","
+            According to the invention, there is provided seed and plants of the hybrid corn variety designated CH283398. The invention thus relates to the plants, seeds and tissue cultures of the variety CH283398, and to methods for producing a corn plant produced by crossing a corn plant of variety CH283398 with itself or with another corn plant, such as a plant of another variety. The invention further relates to genetic complements of plants of variety CH283398.         "
+10104854,"
+
+                    Plants and seeds of hybrid corn variety CH588823                
+","
+            According to the invention, there is provided seed and plants of the hybrid corn variety designated CH588823. The invention thus relates to the plants, seeds and tissue cultures of the variety CH588823, and to methods for producing a corn plant produced by crossing a corn plant of variety CH588823 with itself or with another corn plant, such as a plant of another variety. The invention further relates to genetic complements of plants of variety CH588823.         "
+10149450,"
+
+                    Plants and seeds of hybrid corn variety CH196888                
+","
+            According to the invention, there is provided seed and plants of the hybrid corn variety designated CH196888. The invention thus relates to the plants, seeds and tissue cultures of the variety CH196888, and to methods for producing a corn plant produced by crossing a corn plant of variety CH196888 with itself or with another corn plant, such as a plant of another variety. The invention further relates to genetic complements of plants of variety CH196888.         "
+10070608,"
+
+                    Plants and seeds of hybrid corn variety CH618122                
+","
+            According to the invention, there is provided seed and plants of the hybrid corn variety designated CH618122. The invention thus relates to the plants, seeds and tissue cultures of the variety CH618122, and to methods for producing a corn plant produced by crossing a corn plant of variety CH618122 with itself or with another corn plant, such as a plant of another variety. The invention further relates to genetic complements of plants of variety CH618122.         "
+9955667,"
+
+                    Plants and seeds of hybrid corn variety CH482385                
+","
+            According to the invention, there is provided seed and plants of the hybrid corn variety designated CH482385. The invention thus relates to the plants, seeds and tissue cultures of the variety CH482385, and to methods for producing a corn plant produced by crossing a corn plant of variety CH482385 with itself or with another corn plant, such as a plant of another variety. The invention further relates to genetic complements of plants of variety CH482385.         "
+10143173,"
+
+                    Plants and seeds of hybrid corn variety CH276806                
+","
+            According to the invention, there is provided seed and plants of the hybrid corn variety designated CH276806. The invention thus relates to the plants, seeds and tissue cultures of the variety CH276806, and to methods for producing a corn plant produced by crossing a corn plant of variety CH276806 with itself or with another corn plant, such as a plant of another variety. The invention further relates to genetic complements of plants of variety CH276806.         "
+9999195,"
+
+                    Plants and seeds of hybrid corn variety CH288180                
+","
+            According to the invention, there is provided seed and plants of the hybrid corn variety designated CH288180. The invention thus relates to the plants, seeds and tissue cultures of the variety CH288180, and to methods for producing a corn plant produced by crossing a corn plant of variety CH288180 with itself or with another corn plant, such as a plant of another variety. The invention further relates to genetic complements of plants of variety CH288180.         "
+9992961,"
+
+                    Plants and seeds of hybrid corn variety CH282521                
+","
+            According to the invention, there is provided seed and plants of the hybrid corn variety designated CH282521. The invention thus relates to the plants, seeds and tissue cultures of the variety CH282521, and to methods for producing a corn plant produced by crossing a corn plant of variety CH282521 with itself or with another corn plant, such as a plant of another variety. The invention further relates to genetic complements of plants of variety CH282521.         "
+9883649,"
+
+                    Plants and seeds of hybrid corn variety CH576533                
+","
+            According to the invention, there is provided seed and plants of the hybrid corn variety designated CH576533. The invention thus relates to the plants, seeds and tissue cultures of the variety CH576533, and to methods for producing a corn plant produced by crossing a corn plant of variety CH576533 with itself or with another corn plant, such as a plant of another variety. The invention further relates to genetic complements of plants of variety CH576533.         "
+9901064,"
+
+                    Plants and seeds of hybrid corn variety CH176642                
+","
+            According to the invention, there is provided seed and plants of the hybrid corn variety designated CH176642. The invention thus relates to the plants, seeds and tissue cultures of the variety CH176642, and to methods for producing a corn plant produced by crossing a corn plant of variety CH176642 with itself or with another corn plant, such as a plant of another variety. The invention further relates to genetic complements of plants of variety CH176642.         "
+10292348,"
+
+                    Plants and seeds of hybrid corn variety CH320399                
+","
+            According to the invention, there is provided seed and plants of the hybrid corn variety designated CH320399. The invention thus relates to the plants, seeds and tissue cultures of the variety CH320399, and to methods for producing a corn plant produced by crossing a corn plant of variety CH320399 with itself or with another corn plant, such as a plant of another variety. The invention further relates to genetic complements of plants of variety CH320399.         "
+10070609,"
+
+                    Plants and seeds of hybrid corn variety CH895408                
+","
+            According to the invention, there is provided seed and plants of the hybrid corn variety designated CH895408. The invention thus relates to the plants, seeds and tissue cultures of the variety CH895408, and to methods for producing a corn plant produced by crossing a corn plant of variety CH895408 with itself or with another corn plant, such as a plant of another variety. The invention further relates to genetic complements of plants of variety CH895408.         "
+9992960,"
+
+                    Plants and seeds of hybrid corn variety CH624865                
+","
+            According to the invention, there is provided seed and plants of the hybrid corn variety designated CH624865. The invention thus relates to the plants, seeds and tissue cultures of the variety CH624865, and to methods for producing a corn plant produced by crossing a corn plant of variety CH624865 with itself or with another corn plant, such as a plant of another variety. The invention further relates to genetic complements of plants of variety CH624865.         "
+10154635,"
+
+                    Plants and seeds of hybrid corn variety CH836028                
+","
+            According to the invention, there is provided seed and plants of the hybrid corn variety designated CH836028. The invention thus relates to the plants, seeds and tissue cultures of the variety CH836028, and to methods for producing a corn plant produced by crossing a corn plant of variety CH836028 with itself or with another corn plant, such as a plant of another variety. The invention further relates to genetic complements of plants of variety CH836028.         "
+9980455,"
+
+                    Plants and seeds of hybrid corn variety CH785771                
+","
+            According to the invention, there is provided seed and plants of the hybrid corn variety designated CH785771. The invention thus relates to the plants, seeds and tissue cultures of the variety CH785771, and to methods for producing a corn plant produced by crossing a corn plant of variety CH785771 with itself or with another corn plant, such as a plant of another variety. The invention further relates to genetic complements of plants of variety CH785771.         "
+10136597,"
+
+                    Plants and seeds of hybrid corn variety CH288975                
+","
+            According to the invention, there is provided seed and plants of the hybrid corn variety designated CH288975. The invention thus relates to the plants, seeds and tissue cultures of the variety CH288975, and to methods for producing a corn plant produced by crossing a corn plant of variety CH288975 with itself or with another corn plant, such as a plant of another variety. The invention further relates to genetic complements of plants of variety CH288975.         "
+10306859,"
+
+                    Plants and seeds of hybrid corn variety CH205155                
+","
+            According to the invention, there is provided seed and plants of the hybrid corn variety designated CH205155. The invention thus relates to the plants, seeds and tissue cultures of the variety CH205155, and to methods for producing a corn plant produced by crossing a corn plant of variety CH205155 with itself or with another corn plant, such as a plant of another variety. The invention further relates to genetic complements of plants of variety CH205155.         "
+9992957,"
+
+                    Plants and seeds of hybrid corn variety CH329249                
+","
+            According to the invention, there is provided seed and plants of the hybrid corn variety designated CH329249. The invention thus relates to the plants, seeds and tissue cultures of the variety CH329249, and to methods for producing a corn plant produced by crossing a corn plant of variety CH329249 with itself or with another corn plant, such as a plant of another variety. The invention further relates to genetic complements of plants of variety CH329249.         "
+9999194,"
+
+                    Plants and seeds of hybrid corn variety CH744817                
+","
+            According to the invention, there is provided seed and plants of the hybrid corn variety designated CH744817. The invention thus relates to the plants, seeds and tissue cultures of the variety CH744817, and to methods for producing a corn plant produced by crossing a corn plant of variety CH744817 with itself or with another corn plant, such as a plant of another variety. The invention further relates to genetic complements of plants of variety CH744817.         "
+10154636,"
+
+                    Plants and seeds of hybrid corn variety CH311019                
+","
+            According to the invention, there is provided seed and plants of the hybrid corn variety designated CH311019. The invention thus relates to the plants, seeds and tissue cultures of the variety CH311019, and to methods for producing a corn plant produced by crossing a corn plant of variety CH311019 with itself or with another corn plant, such as a plant of another variety. The invention further relates to genetic complements of plants of variety CH311019.         "
+10278353,"
+
+                    Plants and seeds of hybrid corn variety CH288451                
+","
+            According to the invention, there is provided seed and plants of the hybrid corn variety designated CH288451. The invention thus relates to the plants, seeds and tissue cultures of the variety CH288451, and to methods for producing a corn plant produced by crossing a corn plant of variety CH288451 with itself or with another corn plant, such as a plant of another variety. The invention further relates to genetic complements of plants of variety CH288451.         "
+10085397,"
+
+                    Plants and seeds of hybrid corn variety CH228442                
+","
+            According to the invention, there is provided seed and plants of the hybrid corn variety designated CH228442. The invention thus relates to the plants, seeds and tissue cultures of the variety CH228442, and to methods for producing a corn plant produced by crossing a corn plant of variety CH228442 with itself or with another corn plant, such as a plant of another variety. The invention further relates to genetic complements of plants of variety CH228442.         "
+10219479,"
+
+                    Plants and seeds of hybrid corn variety CH702044                
+","
+            According to the invention, there is provided seed and plants of the hybrid corn variety designated CH702044. The invention thus relates to the plants, seeds and tissue cultures of the variety CH702044, and to methods for producing a corn plant produced by crossing a corn plant of variety CH702044 with itself or with another corn plant, such as a plant of another variety. The invention further relates to genetic complements of plants of variety CH702044.         "
+10039253,"
+
+                    Plants and seeds of hybrid corn variety CH754140                
+","
+            According to the invention, there is provided seed and plants of the hybrid corn variety designated CH754140. The invention thus relates to the plants, seeds and tissue cultures of the variety CH754140, and to methods for producing a corn plant produced by crossing a corn plant of variety CH754140 with itself or with another corn plant, such as a plant of another variety. The invention further relates to genetic complements of plants of variety CH754140.         "
+4847243,"
+
+                    Treatment for fescue toxicosis in grazing animals                
+","
+            There is disclosed a method for the prevention of fescue toxicosis in grazing animals. Fescue toxicosis results from a grazing animal ingesting certain toxins present in or on the grass which can impair growth, reproductive performance, and is sometimes fatal. It has been discovered that the administration of ivermectin or related avermectin compounds is effective in reducing or eliminating the toxic effects of fescue endophyte ingestion.        "
+10334807,"
+
+                    Plants and seeds of hybrid corn variety CH288822                
+","
+            According to the invention, there is provided seed and plants of the hybrid corn variety designated CH288822. The invention thus relates to the plants, seeds and tissue cultures of the variety CH288822, and to methods for producing a corn plant produced by crossing a corn plant of variety CH288822 with itself or with another corn plant, such as a plant of another variety. The invention further relates to genetic complements of plants of variety CH288822.         "
+9918448,"
+
+                    Plants and seeds of hybrid corn variety CH324182                
+","
+            According to the invention, there is provided seed and plants of the hybrid corn variety designated CH324182. The invention thus relates to the plants, seeds and tissue cultures of the variety CH324182, and to methods for producing a corn plant produced by crossing a corn plant of variety CH324182 with itself or with another corn plant, such as a plant of another variety. The invention further relates to genetic complements of plants of variety CH324182.         "
+10238070,"
+
+                    Plants and seeds of hybrid corn variety CH720451                
+","
+            According to the invention, there is provided seed and plants of the hybrid corn variety designated CH720451. The invention thus relates to the plants, seeds and tissue cultures of the variety CH720451, and to methods for producing a corn plant produced by crossing a corn plant of variety CH720451 with itself or with another corn plant, such as a plant of another variety. The invention further relates to genetic complements of plants of variety CH720451.         "
+10143171,"
+
+                    Plants and seeds of hybrid corn variety CH851343                
+","
+            According to the invention, there is provided seed and plants of the hybrid corn variety designated CH851343. The invention thus relates to the plants, seeds and tissue cultures of the variety CH851343, and to methods for producing a corn plant produced by crossing a corn plant of variety CH851343 with itself or with another corn plant, such as a plant of another variety. The invention further relates to genetic complements of plants of variety CH851343.         "
+10136598,"
+
+                    Plants and seeds of hybrid corn variety CH887497                
+","
+            According to the invention, there is provided seed and plants of the hybrid corn variety designated CH887497. The invention thus relates to the plants, seeds and tissue cultures of the variety CH887497, and to methods for producing a corn plant produced by crossing a corn plant of variety CH887497 with itself or with another corn plant, such as a plant of another variety. The invention further relates to genetic complements of plants of variety CH887497.         "
+10278355,"
+
+                    Plants and seeds of hybrid corn variety CH830401                
+","
+            According to the invention, there is provided seed and plants of the hybrid corn variety designated CH830401. The invention thus relates to the plants, seeds and tissue cultures of the variety CH830401, and to methods for producing a corn plant produced by crossing a corn plant of variety CH830401 with itself or with another corn plant, such as a plant of another variety. The invention further relates to genetic complements of plants of variety CH830401.         "
+10194628,"
+
+                    Plants and seeds of hybrid corn variety CH306870                
+","
+            According to the invention, there is provided seed and plants of the hybrid corn variety designated CH306870. The invention thus relates to the plants, seeds and tissue cultures of the variety CH306870, and to methods for producing a corn plant produced by crossing a corn plant of variety CH306870 with itself or with another corn plant, such as a plant of another variety. The invention further relates to genetic complements of plants of variety CH306870.         "
+10188064,"
+
+                    Plants and seeds of hybrid corn variety CH246236                
+","
+            According to the invention, there is provided seed and plants of the hybrid corn variety designated CH246236. The invention thus relates to the plants, seeds and tissue cultures of the variety CH246236, and to methods for producing a corn plant produced by crossing a corn plant of variety CH246236 with itself or with another corn plant, such as a plant of another variety. The invention further relates to genetic complements of plants of variety CH246236.         "
+10194627,"
+
+                    Plants and seeds of hybrid corn variety CH577323                
+","
+            According to the invention, there is provided seed and plants of the hybrid corn variety designated CH577323. The invention thus relates to the plants, seeds and tissue cultures of the variety CH577323, and to methods for producing a corn plant produced by crossing a corn plant of variety CH577323 with itself or with another corn plant, such as a plant of another variety. The invention further relates to genetic complements of plants of variety CH577323.         "
+10219481,"
+
+                    Plants and seeds of hybrid corn variety CH753550                
+","
+            According to the invention, there is provided seed and plants of the hybrid corn variety designated CH753550. The invention thus relates to the plants, seeds and tissue cultures of the variety CH753550, and to methods for producing a corn plant produced by crossing a corn plant of variety CH753550 with itself or with another corn plant, such as a plant of another variety. The invention further relates to genetic complements of plants of variety CH753550.         "
+10143172,"
+
+                    Plants and seeds of hybrid corn variety CH583000                
+","
+            According to the invention, there is provided seed and plants of the hybrid corn variety designated CH583000. The invention thus relates to the plants, seeds and tissue cultures of the variety CH583000, and to methods for producing a corn plant produced by crossing a corn plant of variety CH583000 with itself or with another corn plant, such as a plant of another variety. The invention further relates to genetic complements of plants of variety CH583000.         "
+10194629,"
+
+                    Plants and seeds of hybrid corn variety CH700140                
+","
+            According to the invention, there is provided seed and plants of the hybrid corn variety designated CH700140. The invention thus relates to the plants, seeds and tissue cultures of the variety CH700140, and to methods for producing a corn plant produced by crossing a corn plant of variety CH700140 with itself or with another corn plant, such as a plant of another variety. The invention further relates to genetic complements of plants of variety CH700140.         "
+10278356,"
+
+                    Plants and seeds of hybrid corn variety CH846107                
+","
+            According to the invention, there is provided seed and plants of the hybrid corn variety designated CH846107. The invention thus relates to the plants, seeds and tissue cultures of the variety CH846107, and to methods for producing a corn plant produced by crossing a corn plant of variety CH846107 with itself or with another corn plant, such as a plant of another variety. The invention further relates to genetic complements of plants of variety CH846107.         "
+10104855,"
+
+                    Plants and seeds of hybrid corn variety CH728705                
+","
+            According to the invention, there is provided seed and plants of the hybrid corn variety designated CH728705. The invention thus relates to the plants, seeds and tissue cultures of the variety CH728705, and to methods for producing a corn plant produced by crossing a corn plant of variety CH728705 with itself or with another corn plant, such as a plant of another variety. The invention further relates to genetic complements of plants of variety CH728705.         "
+10070610,"
+
+                    Plants and seeds of hybrid corn variety CH625414                
+","
+            According to the invention, there is provided seed and plants of the hybrid corn variety designated CH625414. The invention thus relates to the plants, seeds and tissue cultures of the variety CH625414, and to methods for producing a corn plant produced by crossing a corn plant of variety CH625414 with itself or with another corn plant, such as a plant of another variety. The invention further relates to genetic complements of plants of variety CH625414.         "
+9968063,"
+
+                    Plants and seeds of hybrid corn variety CH174829                
+","
+            According to the invention, there is provided seed and plants of the hybrid corn variety designated CH174829. The invention thus relates to the plants, seeds and tissue cultures of the variety CH174829, and to methods for producing a corn plant produced by crossing a corn plant of variety CH174829 with itself or with another corn plant, such as a plant of another variety. The invention further relates to genetic complements of plants of variety CH174829.         "
+9980456,"
+
+                    Plants and seeds of hybrid corn variety CH213573                
+","
+            According to the invention, there is provided seed and plants of the hybrid corn variety designated CH213573. The invention thus relates to the plants, seeds and tissue cultures of the variety CH213573, and to methods for producing a corn plant produced by crossing a corn plant of variety CH213573 with itself or with another corn plant, such as a plant of another variety. The invention further relates to genetic complements of plants of variety CH213573.         "
+10070611,"
+
+                    Plants and seeds of hybrid corn variety CH624975                
+","
+            According to the invention, there is provided seed and plants of the hybrid corn variety designated CH624975. The invention thus relates to the plants, seeds and tissue cultures of the variety CH624975, and to methods for producing a corn plant produced by crossing a corn plant of variety CH624975 with itself or with another corn plant, such as a plant of another variety. The invention further relates to genetic complements of plants of variety CH624975.         "
+10412911,"
+
+                    Plants and seeds of hybrid corn variety CH634759                
+","
+            According to the invention, there is provided seed and plants of the hybrid corn variety designated CH634759. The invention thus relates to the plants, seeds and tissue cultures of the variety CH634759, and to methods for producing a corn plant produced by crossing a corn plant of variety CH634759 with itself or with another corn plant, such as a plant of another variety. The invention further relates to genetic complements of plants of variety CH634759.         "
+10219480,"
+
+                    Plants and seeds of hybrid corn variety CH624589                
+","
+            According to the invention, there is provided seed and plants of the hybrid corn variety designated CH624589. The invention thus relates to the plants, seeds and tissue cultures of the variety CH624589, and to methods for producing a corn plant produced by crossing a corn plant of variety CH624589 with itself or with another corn plant, such as a plant of another variety. The invention further relates to genetic complements of plants of variety CH624589.         "
+10149446,"
+
+                    Plants and seeds of hybrid corn variety CH658391                
+","
+            According to the invention, there is provided seed and plants of the hybrid corn variety designated CH658391. The invention thus relates to the plants, seeds and tissue cultures of the variety CH658391, and to methods for producing a corn plant produced by crossing a corn plant of variety CH658391 with itself or with another corn plant, such as a plant of another variety. The invention further relates to genetic complements of plants of variety CH658391.         "
