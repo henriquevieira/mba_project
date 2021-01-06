@@ -43,11 +43,19 @@ A construção do dicionario que será utilizado no projeto é composto pelas se
 \subsection{Validação do dicionario}
 A avaliação do dicionario obtido, consiste em observar se o valor k utilizado para geração de tópicos conseguiu separar adequadamente os assuntos contidos no corpora.
 
-\section{Resultados parciais}
+\subsection{Classificação a partir do dicionario}
+Esta etapa consiste em utilizar o dicionario para classificar os documentos de patentes a partir da iteração com cada termo do dicionario para o conjunto de termos de cada documento, classificando para cada tópico. Esta tarefa é demorada e o tempo necessário aumenta exponencialmente conforme aumenta o tamanho do corpora utilizado. A base de dados gerada será usada para ensinar ao modelo como classificar novos documentos de patentes.
+
+
+\subsection{Modelagem}
+Utilizaremos três dos modelos mais citados na classificação de texto, o RandomForest, Naive Bayes e SVM para avaliar qual se adéqua melhor a essa classificação. Usaremos as técnicas de pré processamento para garantir que o mesmo dado será testado igualmente para cada modelo e escolheremos o modelo de melhor acurácia como modelo final.
+
+
+\section{Resultados}
 
 \subsection{Extração de dados}
 
-Extraímos uma amostra no total de 200 documentos de patentes através do uso da técnica de webscraping. Destes documentos, os dados de \textbf{Titulo} e \textbf{Resumo} foram pré processados, removendo as quebras de linhas, espaços no inicio e fim da frase, uso de somente um espaço como separador e transformação em minusculo. Estes dados foram concatenados e usados para a montagem do corpora de documentos de patentes, que poderá ser utilizado para outros projetos. Podemos visualizar na figura \ref{wordcloud_pre_image} como é distribuida a relação de palavras.
+Extraímos uma amostra no total de 904 documentos de patentes através do uso da técnica de webscraping. Destes documentos, os dados de \textbf{Titulo} e \textbf{Resumo} foram pré processados, removendo as quebras de linhas, espaços no inicio e fim da frase, uso de somente um espaço como separador e transformação do texto em minúsculo. Estes dados foram concatenados e usados para a montagem do corpora de documentos de patentes, que poderá ser utilizado para outros projetos. Podemos visualizar na figura \ref{wordcloud_pre_image} como é distribuida a relação de palavras.
 
 \begin{figure}[ht!]
 	\centering
@@ -58,21 +66,21 @@ Extraímos uma amostra no total de 200 documentos de patentes através do uso da
 
 \subsection{Construção do dicionario}
 
-A construção do dicionario engloba o levantamento de tópicos, expansão dos termos, avaliação dos tópicos e expansão dos termos.
+A construção do dicionário engloba o levantamento de tópicos, validação dos tópicos e a expansão do dicionário.
 
 \subsubsection{Levantamento de tópicos}
 
-O corpora de documentos de patentes foi carregado, removido as stopwords, removido também caracteres numéricos e especiais, depois separados em palavras (tokens) e desflexionados para a sua raiz (lemmas). Resultando em 200 conjuntos de palavras normalizadas representando cada documento de patente e que esta pronto para ser utilizado em modelos de Processamento de Linguagem Natural e em modelos de Aprendizado de Maquina.
-Aplicamos o modelo LDA, com os seguintes parâmetros - random\_state igual a 100, update\_every igual a 1, chuncksize igual a 100, passes igual a 10 e alpha automático. Para definir a quantidade de tópicos k, usamos um laço de 40 interações e anotamos o valor da métrica Coherence.
+Foi utilizado o corpora de documentos de patentes feito no passo anterior, onde foi removido as \textbf{stopwords} (palavras que não possuem importância a frase, por exemplo em Inglês: The, from, a, an, with, etc.), foram removidos também caracteres numéricos e especiais. O conteúdo de cada corpus foram separados em uma lista palavras, este processo denomina-se como geração de \textbf{tokens} e cada token foi desflexionado para a sua palavra raiz (\textbf{lemmas}). Obtivemos 904 conjuntos de palavras normalizadas, representando cada documento de patente e que esta pronto para ser utilizado em modelos de Processamento de Linguagem Natural e em modelos de Aprendizado de Maquina.
+Aplicamos o \textbf{modelo LDA}, com os seguintes parâmetros - random\_state igual a 100, update\_every igual a 1, chuncksize igual a 100, passes igual a 10 e alpha automático. Para definir a quantidade de tópicos k, usamos um laço de 40 interações e anotamos o valor da métrica Coherence.
 
 \begin{figure}[ht!]
 	\centering
 	\includegraphics[scale=0.6]{imagens/distr_dos_valores_de_coherence.png}
-	\caption{A distribuição dos valores de Coherence ao longo da variação do parametro k, permite que observemos qual a quantidade de tópicos devemos ter.
+	\caption{A distribuição dos valores de Coherence ao longo da variação do \textbf{parâmetro k}, permite que observemos qual a quantidade de tópicos mais relevantes a se utilizar.
 			 \label{dist_coherence_image}}
 \end{figure}
 
-O gráfico aponta que um k igual a 20 resulta no segundo mais alto valor de Coherence, como visto na figura \ref{dist_coherence_image}. Utilizaremos este valor para k, pois é um número menor de conjuntos de palavras que precisará serem interpretadas para se definir qual o título do tópico se referem.
+O gráfico da figura \ref{dist_coherence_image} aponta que um k igual a 25 resulta no mais alto valor de Coherence. Utilizaremos este valor para k para se definir os títulos de tópico.
 
 \subsubsection{Validação dos tópicos}
 
@@ -80,34 +88,88 @@ Examinamos o tópicos obtidos através da ferramenta pyLDAvis, figura \ref{pyLDA
 
 \begin{figure}[ht!]
 	\centering
-	\includegraphics[scale=0.4]{imagens/construcao_dicionario1.png}
+	\includegraphics[scale=0.4]{imagens/construcao_dicionario.png}
 	\caption{O grafico de bolhas, cada bolha representa um tópico, o tamanho da bolha representa a prevalencia do tópico e a sobreposição de bolhas aponta a similaridade entre os tópicos. O gráfico da direita, as barras representam a relevância do termo para o tópico observado.
 			 \label{pyLDAvis_image}}
 \end{figure}
 
 \subsubsection{Expansão do dicionário}
 
-Antes de expandir o dicionário, realizamos a remoção dois tópicos que estavam muito similares. Os tópicos geraram no total de 98 palavras únicas que foram submetidas ao wordnet e adicionado os sinônimos, hiperônimos e hipônimos destes termos, totalizando 433 termos que representam cada tópico. A estrutura do dicionário criado é composta por três colunas, a primeira é o tópico, a segunda são os termos que estão atrelada ao tópico e a terceira coluna são as palavras derivadas dos termos.
+Antes de expandir o dicionário, realizamos a remoção dois tópicos que estavam muito similares. Os tópicos geraram no total de 144 termos únicos que foram submetidas ao wordnet e adicionado os sinônimos, hiperônimos e hipônimos destes termos, totalizando 616 termos que representam cada tópico. A estrutura do dicionário criado é composta por três colunas, a primeira é o tópico, a segunda são os termos que estão atrelada ao tópico e a terceira coluna são as palavras derivadas dos termos.
 
-	Obtivemos no final um dicionário com com 954 linhas e três colunas, que foi utilizado para fazer uma classificação inicial dos documentos de patentes.
-	
-\subsubsection{Modelo}
+Obtivemos no final um dicionário com com 901 linhas e três colunas, que foi utilizado para fazer uma classificação inicial dos documentos de patentes. 
 
-Para a construção do modelo, realizamos um pre processamento convertendo o conteúdo do documento de patente em uma matriz documento-termo, esta matriz tem a estrutura da seguinte forma:
+\subsubsection{Construção da base de dados}
+
+A base de dados composta a partir das informações de identificação documento de patente, o título do documento de patente e o seu resumo. A partir do dicionario fizemos uma classificação, onde atribuímos a cada documento de patente os tópicos a que se referem. A estrutura da base de dados é de 817 linhas e 7 colunas, sendo que 87 linhas foram removidas por não conterem título ou resumo.
+
+\subsubsection{Construção do modelo}
+
+Para a construção do modelo principal, os seguintes modelos foram testados, Random Forest, Naive Bayes e SVM, os principais modelos aplicados em classificação de texto. O seguinte fluxo de analise de dados foi aplicado:
+
+\paragraph{Pre processamento}
+
+\subparagraph{Matriz documento-termo}
+
+Conversão da tabela de entrada em uma matriz documento-termo, esta matriz tem a estrutura da seguinte forma:
 
 \begin{itemize}
   \item colunas: palavras de relevância
   \item linhas: documentos
   \item valores: correspondem ao valor de TF-IDF obtido, quando a palavra não consta na entrada, o valor será igual a zero.
 \end{itemize}
+
+A matriz resultante possui 817 linhas e 3492 colunas.
 	
-	O modelo testado foi o Random Forest, com critério de separação Gini, obtendo um score igual a 0,56.
+\subparagraph{Remoção de stopwords}
 
-\section{Discussão parcial}
+Ao converter a tabela de entrada em uma matriz de documento-termo, as colunas são todas palavras de todos os documentos de patente, fazendo-se necessário a remoção de stop-words, resultando em uma tabela com 817 linhas e 3402 colunas.
 
-Conseguimos realizar a extração bem sucedida de uma amostra de documentos de patentes, do qual pré processamos e criamos um corpora que poderá ser usado não somente para este trabalho como para outros trabalhos com documentos de patentes. Fizemos um primeiro levantamento dos tópicos usando o modelo LDA e obtivemos 20 tópicos que serão avaliados e rotulados corretamente. 
+\subparagraph{Seleção de características}
+
+A seleção de características tem como objetivo selecionar as colunas que possuam maior relevância a coluna alvo. Utilizamos o método RFE para reduzir o numero de colunas para somente 20. Nossa matriz final possui 817 linhas por 20 colunas.
+
+\subparagraph{Modelo}
+
+Os seguintes parâmetros foram utilizados para cada modelo, seguido do valor de acurácia obtido:
+	
+\begin{itemize}
+  \item RandomForest
+  \begin{itemize}
+    \item critério de separação: Gini
+    \item profundidade máxima: 5
+    \item validação cruzada de 10 folds
+    \item \textbf{acurácia igual a $0.83$}
+  \end{itemize}
+  \item NaiveBayes
+  \begin{itemize}
+    \item foram mantidos o valor padrão para cada parâmetro
+    \item \textbf{acurácia igual a $0.80$}
+  \end{itemize}
+  \item SVM
+  \begin{itemize}
+    \item custo: 1,5
+    \item \textbf{acurácia igual a $0.78$}
+  \end{itemize}
+\end{itemize}	
+
+\subparagraph{Avaliação de parametros}
+	
+O modelo escolhido foi o RandomForest por ter o maior valor de acurácia, avaliamos se os parâmetros de profundidade máxima poderia ser melhorado como visto na figura \ref{validation_curve_max_depth_rf}.
+
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[scale=0.8]{imagens/validation_curve_max_depth_rf.png}
+	\caption{Plot do valor de acurácia obtido para cara valor de profundidade máxima. Podemos observar que para os dados de treino e validação se estabiliza após o valor 10.
+			 \label{validation_curve_max_depth_rf}}
+\end{figure}
+
+Após ajustar o parâmetro de máxima profundidade para 15, obtivemos uma acurácia de 0,84. Não houve um ganho significativo em alterar o parâmetro de máxima profundidade.
+
+\section{Discussão}
+
+Conseguimos realizar a extração bem sucedida de uma amostra de documentos de patentes, do qual pré processamos e criamos um corpora que poderá ser usado não somente para este trabalho como para outros trabalhos com documentos de patentes sobre o tema de agronomia. Fizemos um primeiro levantamento dos tópicos usando o modelo LDA e obtivemos 25 tópicos que serão avaliados e rotulados corretamente. 
 Utilizando termos simples para rotular os tópicos neste primeiro momento percebemos que dois tópicos puderam ser removidos por serem semelhantes. Com os termos, expandimos com novos termos que são sinônimos, hiperônimos e hipônimos dos termos associados aos tópicos fazendo com que o nosso dicionário cubra uma área maior do assunto. 
-Realizamos a construção de um modelo a partir do Random Forest, onde obtivemos o valor de score de 0,56, este é um valor ruim, o que era esperado era algo acima de 0,70. 
-
-Para os próximos passos para a finalização do trabalho, esperamos aumentar o tamanho da base de dados, testar um conjunto de parâmetros que auxiliem ao modelo resultar em um score mais alto e testar o modelo Naive Bayes e SVM.
+Por fim, testamos três modelos muito utilizados na classificação de textos, o Random Forest, Naive Bayes e SVM. O modelo feito em RandomForest obteve um melhor resultado em comparação aos outros dois modelos, onde o modelo final  alcançou um valor de acurácia de $0.84$, muito mais do que era esperado. 
+Acreditamos que aplicando outras técnicas de pre processamento e um teste exaustivo de diferentes valores de parâmetros, há a possibilidade de obter um valor de acurácia acima de $0.90$.
 

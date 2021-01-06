@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2020.11.29)  20 DEC 2020 23:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2020.11.29)  6 JAN 2021 10:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1141,7 +1141,8 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 211.
 
 
 Writing index file TCC.idx 
-(./TCC.aux (./USPSC-Cap1-Introducao.aux) (./USPSC-Cap2-Desenvolvimento.aux))
+(./TCC.aux (./USPSC-Cap1-Introducao.aux) (./USPSC-Cap2-Desenvolvimento.aux)
+(./USPSC-Cap5-Conclusao.aux))
 \openout1 = `TCC.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 232.
@@ -1159,8 +1160,7 @@ LaTeX Font Info:    ... okay on input line 232.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 232.
 LaTeX Font Info:    ... okay on input line 232.
 LaTeX Font Info:    Try loading font information for T1+lmr on input line 232.
-
-(/usr/share/texmf/tex/latex/lm/t1lmr.fd
+ (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 \AtBeginShipoutBox=\box65
@@ -1367,14 +1367,14 @@ FPO (https://www.freepatentsonline.com/).
 
 
 ]
-<imagens/tcc_webscraping.jpg, id=173, 241.90375pt x 479.7925pt>
+<imagens/tcc_webscraping.jpg, id=183, 241.90375pt x 479.7925pt>
 File: imagens/tcc_webscraping.jpg Graphic file (type jpg)
 
 <use imagens/tcc_webscraping.jpg>
 Package pdftex.def Info: imagens/tcc_webscraping.jpg used on input line 27.
 (pdftex.def)             Requested size: 120.95157pt x 239.89565pt.
  [13]
-<imagens/tcc_dicionario.jpg, id=181, 252.945pt x 585.18625pt>
+<imagens/tcc_dicionario.jpg, id=191, 252.945pt x 585.18625pt>
 File: imagens/tcc_dicionario.jpg Graphic file (type jpg)
 
 <use imagens/tcc_dicionario.jpg>
@@ -1388,70 +1388,114 @@ Underfull \vbox (badness 5563) has occurred while \output is active []
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.46 \section
-             {Resultados parciais}pdfTeX warning (ext4): destination with the s
-ame identifier (name{figure.2.2}) has been already used, duplicate ignored
+l.46 \subsection
+                {Classificação a partir do dicionario}pdfTeX warning (ext4): 
+destination with the same identifier (name{figure.2.2}) has been already used, 
+duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.46 \section
-             {Resultados parciais} <./imagens/tcc_webscraping.jpg> <./imagens/t
-cc_dicionario.jpg>]
-<imagens/wordcloud_preprocess.png, id=187, 1204.5pt x 803.0pt>
+l.46 \subsection
+                {Classificação a partir do dicionario} <./imagens/tcc_webscra
+ping.jpg> <./imagens/tcc_dicionario.jpg>]
+<imagens/wordcloud_preprocess.png, id=197, 1204.5pt x 803.0pt>
 File: imagens/wordcloud_preprocess.png Graphic file (type png)
 
 <use imagens/wordcloud_preprocess.png>
-Package pdftex.def Info: imagens/wordcloud_preprocess.png used on input line 54
+Package pdftex.def Info: imagens/wordcloud_preprocess.png used on input line 62
 .
 (pdftex.def)             Requested size: 361.35278pt x 240.90186pt.
- [15pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
-3}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.67 
-      <./imagens/wordcloud_preprocess.png (PNG copy)>]
-<imagens/distr_dos_valores_de_coherence.png, id=194, 736.7525pt x 397.485pt>
+ [15]
+<imagens/distr_dos_valores_de_coherence.png, id=204, 733.74126pt x 397.485pt>
 File: imagens/distr_dos_valores_de_coherence.png Graphic file (type png)
 
 <use imagens/distr_dos_valores_de_coherence.png>
 Package pdftex.def Info: imagens/distr_dos_valores_de_coherence.png used on inp
-ut line 70.
-(pdftex.def)             Requested size: 442.05492pt x 238.49283pt.
+ut line 78.
+(pdftex.def)             Requested size: 440.24815pt x 238.49283pt.
 
-<imagens/construcao_dicionario1.png, id=198, 1223.57124pt x 841.1425pt>
-File: imagens/construcao_dicionario1.png Graphic file (type png)
+<imagens/construcao_dicionario.png, id=208, 1214.5375pt x 706.64pt>
+File: imagens/construcao_dicionario.png Graphic file (type png)
 
-<use imagens/construcao_dicionario1.png>
-Package pdftex.def Info: imagens/construcao_dicionario1.png used on input line 
-83.
-(pdftex.def)             Requested size: 489.41983pt x 336.45103pt.
+<use imagens/construcao_dicionario.png>
+Package pdftex.def Info: imagens/construcao_dicionario.png used on input line 9
+1.
+(pdftex.def)             Requested size: 485.8064pt x 282.65099pt.
 
-Overfull \hbox (34.41983pt too wide) in paragraph at lines 83--85
+Overfull \hbox (30.8064pt too wide) in paragraph at lines 91--93
  [][] 
  []
 
-[16pdfTeX warning (ext4): destination with the same identifier (name{figure.2.4
+[16pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.91 
-      <./imagens/distr_dos_valores_de_coherence.png>]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 99.
+l.100 O
+       btivemos no final um dicionário com com 901 linhas e três colunas, ...
+ <./imagens/wordcloud_preprocess.png (PNG copy)>]
+
+LaTeX Warning: Text page 17 contains only floats.
+
+[17pdfTeX warning (ext4): destination with the same identifier (name{figure.2.4
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.100 O
+       btivemos no final um dicionário com com 901 linhas e três colunas, ...
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.5}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.100 O
+       btivemos no final um dicionário com com 901 linhas e três colunas, ...
+ <./imagens/distr_dos_valores_de_coherence.png> <./imagens/construcao_dicionari
+o.png>]
+Overfull \hbox (12.52094pt too wide) in paragraph at lines 114--115
+ []\T1/lmr/bx/n/12 Matriz documento-termo[] \T1/lmr/m/n/12 (-20) Con-ver-s�o da
+ ta-bela de en-trada em uma ma-triz documento-
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 117.
 
 (/usr/share/texmf/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 99.
- [17pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
-5}) has been already used, duplicate ignored
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 117.
+ [18]
+<imagens/validation_curve_max_depth_rf.png, id=231, 578.16pt x 433.62pt>
+File: imagens/validation_curve_max_depth_rf.png Graphic file (type png)
+
+<use imagens/validation_curve_max_depth_rf.png>
+Package pdftex.def Info: imagens/validation_curve_max_depth_rf.png used on inpu
+t line 162.
+(pdftex.def)             Requested size: 462.52863pt x 346.89647pt.
+
+Overfull \hbox (7.52863pt too wide) in paragraph at lines 162--164
+ [][] 
+ []
+
+) [19] [20pdfTeX warning (ext4): destination with the same identifier (name{fig
+ure.2.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.102 \end{itemize}
-                    <./imagens/construcao_dicionario1.png>]) [18] (./TCC.bbl
+l.449 \include{USPSC-Cap2-Desenvolvimento}
+                                           <./imagens/validation_curve_max_dept
+h_rf.png>]
+\openout2 = `USPSC-Cap5-Conclusao.aux'.
+
+ (./USPSC-Cap5-Conclusao.tex) [21
+
+
+
+] (./TCC.bbl [22
+
+
+]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 3.
@@ -1459,16 +1503,14 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 bibitemlist
 ) 
 AED: lastpage setting LastPage
-[19
-
-
-]
+[23]
 \tf@toc=\write5
 \openout5 = `TCC.toc'.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 503.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 503.
- (./TCC.aux (./USPSC-Cap1-Introducao.aux) (./USPSC-Cap2-Desenvolvimento.aux))
+ (./TCC.aux (./USPSC-Cap1-Introducao.aux) (./USPSC-Cap2-Desenvolvimento.aux) (.
+/USPSC-Cap5-Conclusao.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 503.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 503.
 
@@ -1478,23 +1520,25 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 503.
  ) 
 Here is how much of TeX's memory you used:
- 14953 strings out of 493029
- 222653 string characters out of 6136233
- 493305 words of memory out of 5000000
- 18078 multiletter control sequences out of 15000+600000
- 47507 words of font info for 80 fonts, out of 8000000 for 9000
+ 14999 strings out of 493029
+ 223467 string characters out of 6136233
+ 494748 words of memory out of 5000000
+ 18095 multiletter control sequences out of 15000+600000
+ 47780 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  43i,18n,43p,955b,519s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/en
-c/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/s
-hare/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public
-/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/te
-xmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lm
-ssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb>
-Output written on TCC.pdf (21 pages, 1139709 bytes).
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/en
+c/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/s
+hare/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm
+/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texm
+f/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12
+.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts
+/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pf
+b></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb>
+Output written on TCC.pdf (25 pages, 1567999 bytes).
 PDF statistics:
- 354 PDF objects out of 1000 (max. 8388607)
- 307 compressed objects within 4 object streams
- 67 named destinations out of 1000 (max. 500000)
- 15630 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 416 PDF objects out of 1000 (max. 8388607)
+ 362 compressed objects within 4 object streams
+ 82 named destinations out of 1000 (max. 500000)
+ 15675 words of extra memory for PDF output out of 17280 (max. 10000000)
 
