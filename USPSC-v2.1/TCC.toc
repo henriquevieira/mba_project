@@ -19,14 +19,14 @@
 \contentsline {subsection}{\numberline {2.1.1}Descri\IeC {\c c}\IeC {\~a}o do objeto de estudo}{25}{subsection.2.1.1}
 \contentsline {subsection}{\numberline {2.1.2}Delineamento da pequisa}{25}{subsection.2.1.2}
 \contentsline {section}{\numberline {2.2}Materiais e m\IeC {\'e}todos}{25}{section.2.2}
-\contentsline {subsubsection}{\numberline {2.2.0.1}Extra\IeC {\c c}\IeC {\~a}o dos dados}{25}{subsubsection.2.2.0.1}
-\contentsline {subsubsection}{\numberline {2.2.0.2}Constru\IeC {\c c}\IeC {\~a}o do dicionario}{25}{subsubsection.2.2.0.2}
-\contentsline {subsection}{\numberline {2.2.1}Valida\IeC {\c c}\IeC {\~a}o do dicionario}{27}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Classifica\IeC {\c c}\IeC {\~a}o a partir do dicionario}{27}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Modelagem}{27}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.1}Extra\IeC {\c c}\IeC {\~a}o dos dados}{25}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Constru\IeC {\c c}\IeC {\~a}o do dicion\IeC {\'a}rio}{25}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Valida\IeC {\c c}\IeC {\~a}o do dicion\IeC {\'a}rio}{27}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Classifica\IeC {\c c}\IeC {\~a}o a partir do dicion\IeC {\'a}rio}{27}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.5}Modelagem}{27}{subsection.2.2.5}
 \contentsline {section}{\numberline {2.3}Resultados}{27}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Extra\IeC {\c c}\IeC {\~a}o de dados}{27}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Constru\IeC {\c c}\IeC {\~a}o do dicionario}{27}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.2}Constru\IeC {\c c}\IeC {\~a}o do dicion\IeC {\'a}rio}{27}{subsection.2.3.2}
 \contentsline {subsubsection}{\numberline {2.3.2.1}Levantamento de t\IeC {\'o}picos}{27}{subsubsection.2.3.2.1}
 \contentsline {subsubsection}{\numberline {2.3.2.2}Valida\IeC {\c c}\IeC {\~a}o dos t\IeC {\'o}picos}{28}{subsubsection.2.3.2.2}
 \contentsline {subsubsection}{\numberline {2.3.2.3}Expans\IeC {\~a}o do dicion\IeC {\'a}rio}{28}{subsubsection.2.3.2.3}

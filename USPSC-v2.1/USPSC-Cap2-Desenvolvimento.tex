@@ -8,19 +8,19 @@
 \chapter{Desenvolvimento}\label{cap_exemplos}
 
 \section{Revisão sistemática}
-O estudo de Revisão Sistemática da Literatura seguiu as recomendações Preferred Reporting Items for Systematic Reviews and Meta-Analisys – PRISMA.
-Foram buscados os termos: “patent mining”, “patent”, “random forest”, “machine learning” - nas seguintes bases de dados: Periodicos CAPES, Microsoft research, Semantic Scholar e Google Scholar. O intervalo de publicação dos artigos selecionados estão entre 2012 a 2020 e restrito a somente artigos escritos em inglês.
+O estudo de Revisão Sistemática da Literatura seguiu as recomendações \textit{Preferred Reporting Items for Systematic Reviews and Meta-Analisys} – PRISMA.
+Foram buscados os termos: “\textit{patent mining}”, “\textit{patent}”, “\textit{random forest}”, “\textit{machine learning}” - nas seguintes bases de dados: Periodicos CAPES, \textit{Microsoft research}, \textit{Semantic Scholar} e \textit{Google Scholar}. O intervalo de publicação dos artigos selecionados estão entre 2012 a 2020 e restrito a somente artigos escritos em inglês.
 
 \subsection{Descrição do objeto de estudo}
-Foi realizado a extração de dados de documentos de patentes no site Free Patents Online - FPO (https://www.freepatentsonline.com/). Este site contem os dados dos documentos de patentes de forma pública.
+Foi realizada a extração de dados de documentos de patentes no site \textit{Free Patents Online} - FPO (https://www.freepatentsonline.com/). Este site contem os dados dos documentos de patentes de forma pública.
 
 \subsection{Delineamento da pequisa}
-Foi buscado o termo “agronomy” e filtrado para somente documentos de patentes registrados nos Estados Unidos. Foi totalizado 12906 patentes, dos quais selecionamos uma amostragem das 200 primeiras patentes. Construímos uma aplicação de webscraping na linguagem Python para realizar a extração dos dados de documentos de patentes.  Os dados extraídos foram armazenados em um banco de dados.
+Foi buscado o termo “\textit{agronomy}” e filtrado para somente documentos de patentes registrados nos Estados Unidos. Foi totalizado 12906 patentes, dos quais selecionamos uma amostragem das 200 primeiras patentes. Construímos uma aplicação de \textit{webscraping} na linguagem Python para realizar a extração dos dados de documentos de patentes.  Os dados extraídos foram armazenados em um banco de dados.
 
 \section{Materiais e métodos}
 
-\subsubsection{Extração dos dados}
-A aplicação de webscraping dos dados de documentos de patentes foi escrita na linguagem de programação Python, com uso das bibliotecas \textit{requests} e \textit{BeautifulSoup}. Essa aplicação é modular o suficiente para que seja definido quantos documentos de patentes terão suas informações extraídas, como também quais informações serão extraídas, como demonstrado na figura \ref{webscraping_flow_image}. Os dados são organizados na forma de tabela e armazenado em um pequeno banco de dados feito em \textit{SQLite}.
+\subsection{Extração dos dados}
+A aplicação de \textit{webscraping} dos dados de documentos de patentes foi escrita na linguagem de programação Python, com uso das bibliotecas \textit{requests} e \textit{BeautifulSoup}. Essa aplicação é modular o suficiente para que seja definido quantos documentos de patentes terão suas informações extraídas, como também quais informações serão extraídas, como demonstrado na Figura \ref{webscraping_flow_image}. Os dados são organizados na forma de tabela e armazenado em um pequeno banco de dados feito em \textit{SQLite}.
 
 \begin{figure}[ht!]
 	\centering
@@ -30,32 +30,32 @@ A aplicação de webscraping dos dados de documentos de patentes foi escrita na 
 \end{figure}
 
 
-\subsubsection{Construção do dicionario}
-A construção do dicionario que será utilizado no projeto é composto pelas seguintes etapas, figura \ref{dicionario_flow_image}, geração de um corpora de documentos de patentes, pre processamento do corpora, obtenção da matriz de documento-termo (Document-Term Matrix – DTM) e aplicação do modelo Latent Dirichlet allocation (LDA). A partir dos tópicos apresentados pelo resultado do LDA, são adicionados ao tópicos, palavras relacionadas, tais como sinônimos, hiperônimos e hipônimos através do banco de dados wordnet.
+\subsection{Construção do dicionário}
+A construção do dicionário utilizado no projeto é composta pelas seguintes etapas, Figura \ref{dicionario_flow_image}, geração de um corpora de documentos de patentes, pre processamento do corpora, obtenção da matriz de documento-termo (\textit{Document-Term Matrix} – DTM) e aplicação do modelo \textit{Latent Dirichlet allocation} (LDA). A partir dos tópicos apresentados pelo resultado do LDA, são adicionados aos tópicos, palavras relacionadas, tais como sinônimos, hiperônimos e hipônimos através do banco de dados \textit{wordnet}.
 
 \begin{figure}[ht!]
 	\centering
 	\includegraphics[scale=0.5]{imagens/tcc_dicionario.jpg}
-	\caption{Fluxo de criação do dicionario
+	\caption{Fluxo de criação do dicionário.
 			 \label{dicionario_flow_image}}
 \end{figure}
 
-\subsection{Validação do dicionario}
-A avaliação do dicionario obtido, consiste em observar se o valor k utilizado para geração de tópicos conseguiu separar adequadamente os assuntos contidos no corpora.
+\subsection{Validação do dicionário}
+A avaliação do dicionário obtido, consiste em observar se o valor k utilizado para geração de tópicos conseguiu separar adequadamente os assuntos contidos no corpora.
 
-\subsection{Classificação a partir do dicionario}
-Esta etapa consiste em utilizar o dicionario para classificar os documentos de patentes a partir da iteração com cada termo do dicionario para o conjunto de termos de cada documento, classificando para cada tópico. Esta tarefa é demorada e o tempo necessário aumenta exponencialmente conforme aumenta o tamanho do corpora utilizado. A base de dados gerada será usada para ensinar ao modelo como classificar novos documentos de patentes.
+\subsection{Classificação a partir do dicionário}
+Esta etapa consiste em utilizar o dicionário para classificar os documentos de patentes a partir da iteração com cada termo do dicionario para o conjunto de termos de cada documento, classificando para cada tópico. Esta tarefa é demorada e o tempo necessário aumenta exponencialmente conforme aumenta o tamanho do corpora utilizado. A base de dados gerada será usada para ensinar ao modelo como classificar novos documentos de patentes.
 
 
 \subsection{Modelagem}
-Utilizaremos três dos modelos mais citados na classificação de texto, o RandomForest, Naive Bayes e SVM para avaliar qual se adéqua melhor a essa classificação. Usaremos as técnicas de pré processamento para garantir que o mesmo dado será testado igualmente para cada modelo e escolheremos o modelo de melhor acurácia como modelo final.
+Utilizaremos três dos modelos mais citados na classificação de texto, o \textit{RandomForest}, \textit{Naive Bayes} e \textit{SVM} para avaliar qual se adéqua melhor a essa classificação. Usaremos as técnicas de pré processamento para garantir que o mesmo dado será testado igualmente para cada modelo e escolheremos o modelo de melhor acurácia como modelo final.
 
 
 \section{Resultados}
 
 \subsection{Extração de dados}
 
-Extraímos uma amostra no total de 904 documentos de patentes através do uso da técnica de webscraping. Destes documentos, os dados de \textbf{Titulo} e \textbf{Resumo} foram pré processados, removendo as quebras de linhas, espaços no inicio e fim da frase, uso de somente um espaço como separador e transformação do texto em minúsculo. Estes dados foram concatenados e usados para a montagem do corpora de documentos de patentes, que poderá ser utilizado para outros projetos. Podemos visualizar na figura \ref{wordcloud_pre_image} como é distribuida a relação de palavras.
+Extraímos uma amostra no total de 904 documentos de patentes através do uso da técnica de \textit{webscraping}. Destes documentos, os dados de \textbf{Titulo} e \textbf{Resumo} foram pré processados, removendo as quebras de linhas, espaços no inicio e fim da frase, uso de somente um espaço como separador e transformação do texto em minúsculo. Estes dados foram concatenados e usados para a montagem do corpora de documentos de patentes, que poderá ser utilizado para outros projetos. Podemos visualizar na Figura \ref{wordcloud_pre_image} como é distribuida a relação de palavras.
 
 \begin{figure}[ht!]
 	\centering
@@ -64,14 +64,14 @@ Extraímos uma amostra no total de 904 documentos de patentes através do uso da
 			 \label{wordcloud_pre_image}}
 \end{figure}
 
-\subsection{Construção do dicionario}
+\subsection{Construção do dicionário}
 
 A construção do dicionário engloba o levantamento de tópicos, validação dos tópicos e a expansão do dicionário.
 
 \subsubsection{Levantamento de tópicos}
 
-Foi utilizado o corpora de documentos de patentes feito no passo anterior, onde foi removido as \textbf{stopwords} (palavras que não possuem importância a frase, por exemplo em Inglês: The, from, a, an, with, etc.), foram removidos também caracteres numéricos e especiais. O conteúdo de cada corpus foram separados em uma lista palavras, este processo denomina-se como geração de \textbf{tokens} e cada token foi desflexionado para a sua palavra raiz (\textbf{lemmas}). Obtivemos 904 conjuntos de palavras normalizadas, representando cada documento de patente e que esta pronto para ser utilizado em modelos de Processamento de Linguagem Natural e em modelos de Aprendizado de Maquina.
-Aplicamos o \textbf{modelo LDA}, com os seguintes parâmetros - random\_state igual a 100, update\_every igual a 1, chuncksize igual a 100, passes igual a 10 e alpha automático. Para definir a quantidade de tópicos k, usamos um laço de 40 interações e anotamos o valor da métrica Coherence.
+Foi utilizado o corpora de documentos de patentes feito no passo anterior, onde foi removido as \textbf{\textit{stopwords}} (palavras que não possuem importância a frase, por exemplo em Inglês: \textit{The}, \textit{from}, \textit{a}, \textit{an}, \textit{with}, etc.), foram removidos também caracteres numéricos e especiais. O conteúdo de cada corpus foi separado em uma lista palavras, este processo denomina-se como geração de \textbf{\textit{tokens}} e cada \textit{token} foi desflexionado para a sua palavra raiz (\textbf{\textit{lemmas}}). Obtivemos 904 conjuntos de palavras normalizadas, representando cada documento de patente e que está pronto para ser utilizado em modelos de Processamento de Linguagem Natural e em modelos de Aprendizado de Máquina.
+Aplicamos o \textbf{modelo LDA}, com os seguintes parâmetros - \textit{random\_state} igual a 100, \textit{update\_every} igual a 1, \textit{chuncksize} igual a 100, passes igual a 10 e \textit{alpha} automático. Para definir a quantidade de tópicos k, usamos um laço de 40 interações e anotamos o valor da métrica Coherence.
 
 \begin{figure}[ht!]
 	\centering
@@ -80,11 +80,11 @@ Aplicamos o \textbf{modelo LDA}, com os seguintes parâmetros - random\_state ig
 			 \label{dist_coherence_image}}
 \end{figure}
 
-O gráfico da figura \ref{dist_coherence_image} aponta que um k igual a 25 resulta no mais alto valor de Coherence. Utilizaremos este valor para k para se definir os títulos de tópico.
+O gráfico da Figura \ref{dist_coherence_image} aponta que um k igual a 25 resulta no mais alto valor de Coherence. Utilizaremos este valor para k para se definir os títulos de tópico.
 
 \subsubsection{Validação dos tópicos}
 
-Examinamos o tópicos obtidos através da ferramenta pyLDAvis, figura \ref{pyLDAvis_image}. Os termos que compõe os tópicos gerados  representam bem o corpora usado. Temos pouca sobreposição, com exceção do tópico 18, e os termos de cada tópico possuem uma alta relevância com o tema agronomia.  
+Examinamos os tópicos obtidos através da ferramenta pyLDAvis, Figura \ref{pyLDAvis_image}. Os termos que compõem os tópicos gerados  representam bem o corpora usado. Temos pouca sobreposição, com exceção do tópico 18, e os termos de cada tópico possuem uma alta relevância com o tema agronomia.  
 
 \begin{figure}[ht!]
 	\centering
@@ -95,7 +95,7 @@ Examinamos o tópicos obtidos através da ferramenta pyLDAvis, figura \ref{pyLDA
 
 \subsubsection{Expansão do dicionário}
 
-Antes de expandir o dicionário, realizamos a remoção dois tópicos que estavam muito similares. Os tópicos geraram no total de 144 termos únicos que foram submetidas ao wordnet e adicionado os sinônimos, hiperônimos e hipônimos destes termos, totalizando 616 termos que representam cada tópico. A estrutura do dicionário criado é composta por três colunas, a primeira é o tópico, a segunda são os termos que estão atrelada ao tópico e a terceira coluna são as palavras derivadas dos termos.
+Antes de expandir o dicionário, realizamos a remoção de dois tópicos que estavam muito similares. Os tópicos geraram no total de 144 termos únicos que foram submetidas ao \textit{wordnet} e adicionado os sinônimos, hiperônimos e hipônimos destes termos, totalizando 616 termos que representam cada tópico. A estrutura do dicionário criado é composta por três colunas, a primeira é o tópico, a segunda são os termos que estão atrelada ao tópico e a terceira coluna são as palavras derivadas dos termos.
 
 Obtivemos no final um dicionário com com 901 linhas e três colunas, que foi utilizado para fazer uma classificação inicial dos documentos de patentes. 
 
