@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2020.11.29)  10 FEB 2021 23:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2020.10.13)  15 FEB 2021 23:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1598,11 +1598,11 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 505.
  ) 
 Here is how much of TeX's memory you used:
- 15155 strings out of 493029
- 225896 string characters out of 6136233
- 502914 words of memory out of 5000000
+ 15161 strings out of 493029
+ 225962 string characters out of 6136233
+ 502922 words of memory out of 5000000
  18147 multiletter control sequences out of 15000+600000
- 63965 words of font info for 105 fonts, out of 8000000 for 9000
+ 64352 words of font info for 108 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  40i,18n,43p,959b,519s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/en
@@ -1614,7 +1614,7 @@ mf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr
 s/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb><
 /usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1
 /public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb>
-Output written on TCC.pdf (37 pages, 1634793 bytes).
+Output written on TCC.pdf (37 pages, 1635308 bytes).
 PDF statistics:
  528 PDF objects out of 1000 (max. 8388607)
  459 compressed objects within 5 object streams

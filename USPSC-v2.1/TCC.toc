@@ -32,9 +32,9 @@
 \contentsline {subsubsection}{\numberline {2.3.2.3}Expans\IeC {\~a}o do dicion\IeC {\'a}rio}{28}{subsubsection.2.3.2.3}
 \contentsline {subsubsection}{\numberline {2.3.2.4}Constru\IeC {\c c}\IeC {\~a}o da base de dados}{30}{subsubsection.2.3.2.4}
 \contentsline {subsubsection}{\numberline {2.3.2.5}Constru\IeC {\c c}\IeC {\~a}o do modelo}{30}{subsubsection.2.3.2.5}
-\contentsline {paragraph}{\numberline {2.3.2.5.1}Pre processamento}{30}{paragraph.2.3.2.5.1}
+\contentsline {paragraph}{\numberline {2.3.2.5.1}Pr\IeC {\'e} processamento}{30}{paragraph.2.3.2.5.1}
 \contentsline {subparagraph}{Matriz documento-termo}{30}{section*.11}
-\contentsline {subparagraph}{Remo\IeC {\c c}\IeC {\~a}o de stopwords}{30}{section*.12}
+\contentsline {subparagraph}{Remo\IeC {\c c}\IeC {\~a}o de \textit {stopwords}}{30}{section*.12}
 \contentsline {subparagraph}{Sele\IeC {\c c}\IeC {\~a}o de caracter\IeC {\'\i }sticas}{30}{section*.13}
 \contentsline {subparagraph}{Modelo}{31}{section*.14}
 \contentsline {subparagraph}{Avalia\IeC {\c c}\IeC {\~a}o de parametros}{31}{section*.15}

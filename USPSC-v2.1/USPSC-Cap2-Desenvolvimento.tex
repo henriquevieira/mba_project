@@ -71,16 +71,16 @@ A construção do dicionário engloba o levantamento de tópicos, validação do
 \subsubsection{Levantamento de tópicos}
 
 Foi utilizado o corpora de documentos de patentes feito no passo anterior, onde foi removido as \textbf{\textit{stopwords}} (palavras que não possuem importância a frase, por exemplo em Inglês: \textit{The}, \textit{from}, \textit{a}, \textit{an}, \textit{with}, etc.), foram removidos também caracteres numéricos e especiais. O conteúdo de cada corpus foi separado em uma lista palavras, este processo denomina-se como geração de \textbf{\textit{tokens}} e cada \textit{token} foi desflexionado para a sua palavra raiz (\textbf{\textit{lemmas}}). Obtivemos 904 conjuntos de palavras normalizadas, representando cada documento de patente e que está pronto para ser utilizado em modelos de Processamento de Linguagem Natural e em modelos de Aprendizado de Máquina.
-Aplicamos o \textbf{modelo LDA}, com os seguintes parâmetros - \textit{random\_state} igual a 100, \textit{update\_every} igual a 1, \textit{chuncksize} igual a 100, passes igual a 10 e \textit{alpha} automático. Para definir a quantidade de tópicos k, usamos um laço de 40 interações e anotamos o valor da métrica Coherence.
+Aplicamos o \textbf{modelo LDA}, com os seguintes parâmetros - \textit{random\_state} igual a 100, \textit{update\_every} igual a 1, \textit{chuncksize} igual a 100, passes igual a 10 e \textit{alpha} automático. Para definir a quantidade de tópicos k, usamos um laço de 40 interações e anotamos o valor da métrica \textit{Coherence}.
 
 \begin{figure}[ht!]
 	\centering
 	\includegraphics[scale=0.6]{imagens/distr_dos_valores_de_coherence.png}
-	\caption{A distribuição dos valores de Coherence ao longo da variação do \textbf{parâmetro k}, permite que observemos qual a quantidade de tópicos mais relevantes a se utilizar.
+	\caption{A distribuição dos valores de \textit{Coherence} ao longo da variação do \textbf{parâmetro k}, permite que observemos qual a quantidade de tópicos mais relevantes a se utilizar.
 			 \label{dist_coherence_image}}
 \end{figure}
 
-O gráfico da Figura \ref{dist_coherence_image} aponta que um k igual a 25 resulta no mais alto valor de Coherence. Utilizaremos este valor para k para se definir os títulos de tópico.
+O gráfico da Figura \ref{dist_coherence_image} aponta que um k igual a 25 resulta no mais alto valor de \textit{Coherence}. Utilizaremos este valor para k para se definir os títulos de tópico.
 
 \subsubsection{Validação dos tópicos}
 
@@ -89,25 +89,25 @@ Examinamos os tópicos obtidos através da ferramenta pyLDAvis, Figura \ref{pyLD
 \begin{figure}[ht!]
 	\centering
 	\includegraphics[scale=0.4]{imagens/construcao_dicionario.png}
-	\caption{O grafico de bolhas, cada bolha representa um tópico, o tamanho da bolha representa a prevalencia do tópico e a sobreposição de bolhas aponta a similaridade entre os tópicos. O gráfico da direita, as barras representam a relevância do termo para o tópico observado.
+	\caption{O gráfico de bolhas, cada bolha representa um tópico, o tamanho da bolha representa a prevalência do tópico e a sobreposição de bolhas aponta a similaridade entre os tópicos. O gráfico da direita, as barras representam a relevância do termo para o tópico observado.
 			 \label{pyLDAvis_image}}
 \end{figure}
 
 \subsubsection{Expansão do dicionário}
 
-Antes de expandir o dicionário, realizamos a remoção de dois tópicos que estavam muito similares. Os tópicos geraram no total de 144 termos únicos que foram submetidas ao \textit{wordnet} e adicionado os sinônimos, hiperônimos e hipônimos destes termos, totalizando 616 termos que representam cada tópico. A estrutura do dicionário criado é composta por três colunas, a primeira é o tópico, a segunda são os termos que estão atrelada ao tópico e a terceira coluna são as palavras derivadas dos termos.
+Antes de expandir o dicionário, realizamos a remoção de dois tópicos que estavam muito similares. Os tópicos geraram no total de 144 termos únicos que foram submetidas ao \textit{wordnet} e adicionado os sinônimos, hiperônimos e hipônimos destes termos, totalizando 616 termos que representam cada tópico. A estrutura do dicionário criado é composta por três colunas, a primeira é o tópico, a segunda são os termos que estão atrelados aos tópico e a terceira coluna são as palavras derivadas dos termos.
 
 Obtivemos no final um dicionário com com 901 linhas e três colunas, que foi utilizado para fazer uma classificação inicial dos documentos de patentes. 
 
 \subsubsection{Construção da base de dados}
 
-A base de dados composta a partir das informações de identificação documento de patente, o título do documento de patente e o seu resumo. A partir do dicionario fizemos uma classificação, onde atribuímos a cada documento de patente os tópicos a que se referem. A estrutura da base de dados é de 817 linhas e 7 colunas, sendo que 87 linhas foram removidas por não conterem título ou resumo.
+A base de dados composta a partir das informações de identificação documento de patente, o título do documento de patente e o seu resumo. A partir do dicionário fizemos uma classificação, onde atribuímos a cada documento de patente os tópicos a que se referem. A estrutura da base de dados é de 817 linhas e 7 colunas, sendo que 87 linhas foram removidas por não conterem título ou resumo.
 
 \subsubsection{Construção do modelo}
 
-Para a construção do modelo principal, os seguintes modelos foram testados, Random Forest, Naive Bayes e SVM, os principais modelos aplicados em classificação de texto. O seguinte fluxo de analise de dados foi aplicado:
+Para a construção do modelo principal, os seguintes modelos foram testados, \textit{Random Forest}, \textit{Naive Bayes} e \textit{SVM}, os principais modelos aplicados em classificação de texto. O seguinte fluxo de analise de dados foi aplicado:
 
-\paragraph{Pre processamento}
+\paragraph{Pré processamento}
 
 \subparagraph{Matriz documento-termo}
 
@@ -121,9 +121,9 @@ Conversão da tabela de entrada em uma matriz documento-termo, esta matriz tem a
 
 A matriz resultante possui 817 linhas e 3492 colunas.
 	
-\subparagraph{Remoção de stopwords}
+\subparagraph{Remoção de \textit{stopwords}}
 
-Ao converter a tabela de entrada em uma matriz de documento-termo, as colunas são todas palavras de todos os documentos de patente, fazendo-se necessário a remoção de stop-words, resultando em uma tabela com 817 linhas e 3402 colunas.
+Ao converter a tabela de entrada em uma matriz de documento-termo, as colunas são todas palavras de todos os documentos de patente, fazendo-se necessário a remoção de \textit{stopwords}, resultando em uma tabela com 817 linhas e 3402 colunas.
 
 \subparagraph{Seleção de características}
 
@@ -134,19 +134,19 @@ A seleção de características tem como objetivo selecionar as colunas que poss
 Os seguintes parâmetros foram utilizados para cada modelo, seguido do valor de acurácia obtido:
 	
 \begin{itemize}
-  \item RandomForest
+  \item \textit{RandomForest}
   \begin{itemize}
     \item critério de separação: Gini
     \item profundidade máxima: 5
     \item validação cruzada de 10 folds
     \item \textbf{acurácia igual a $0.83$}
   \end{itemize}
-  \item NaiveBayes
+  \item \textit{NaiveBayes}
   \begin{itemize}
     \item foram mantidos o valor padrão para cada parâmetro
     \item \textbf{acurácia igual a $0.80$}
   \end{itemize}
-  \item SVM
+  \item \textit{SVM}
   \begin{itemize}
     \item custo: 1,5
     \item \textbf{acurácia igual a $0.78$}
@@ -155,7 +155,7 @@ Os seguintes parâmetros foram utilizados para cada modelo, seguido do valor de 
 
 \subparagraph{Avaliação de parametros}
 	
-O modelo escolhido foi o RandomForest por ter o maior valor de acurácia, avaliamos se os parâmetros de profundidade máxima poderia ser melhorado como visto na figura \ref{validation_curve_max_depth_rf}.
+O modelo escolhido foi o RandomForest por ter o maior valor de acurácia, avaliamos se os parâmetros de profundidade máxima poderia ser melhorado como visto na Figura \ref{validation_curve_max_depth_rf}.
 
 \begin{figure}[ht!]
 	\centering
@@ -170,6 +170,6 @@ Após ajustar o parâmetro de máxima profundidade para 15, obtivemos uma acurá
 
 Conseguimos realizar a extração bem sucedida de uma amostra de documentos de patentes, do qual pré processamos e criamos um corpora que poderá ser usado não somente para este trabalho como para outros trabalhos com documentos de patentes sobre o tema de agronomia. Fizemos um primeiro levantamento dos tópicos usando o modelo LDA e obtivemos 25 tópicos que serão avaliados e rotulados corretamente. 
 Utilizando termos simples para rotular os tópicos neste primeiro momento percebemos que dois tópicos puderam ser removidos por serem semelhantes. Com os termos, expandimos com novos termos que são sinônimos, hiperônimos e hipônimos dos termos associados aos tópicos fazendo com que o nosso dicionário cubra uma área maior do assunto. 
-Por fim, testamos três modelos muito utilizados na classificação de textos, o Random Forest, Naive Bayes e SVM. O modelo feito em RandomForest obteve um melhor resultado em comparação aos outros dois modelos, onde o modelo final  alcançou um valor de acurácia de $0.84$, muito mais do que era esperado. 
-Acreditamos que aplicando outras técnicas de pre processamento e um teste exaustivo de diferentes valores de parâmetros, há a possibilidade de obter um valor de acurácia acima de $0.90$.
+Por fim, testamos três modelos muito utilizados na classificação de textos, o \textit{Random Forest}, \textit{Naive Bayes} e \textit{SVM}. O modelo feito em RandomForest obteve um melhor resultado em comparação aos outros dois modelos, onde o modelo final  alcançou um valor de acurácia de $0.84$, muito mais do que era esperado. 
+Acreditamos que aplicando outras técnicas de pré processamento e um teste exaustivo de diferentes valores de parâmetros, há a possibilidade de obter um valor de acurácia acima de $0.90$.
 
